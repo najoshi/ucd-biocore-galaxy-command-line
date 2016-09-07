@@ -1,0 +1,12 @@
+data/data_manager/data_manager_snpEff_download.xml.i
+data/tool-data/snpeffv_databases.loc.sample.i
+data/tool-data/snpeffv_regulationdb.loc.sample.i
+data/tool-data/snpeffv_annotations.loc.sample.i
+data/repository_dependencies.xml.i
+data/data_manager/data_manager_snpEff_download.py.i
+data/data_manager_conf.xml.i
+data/tool_data_table_conf.xml.sample.i
+data/tool-data/snpeffv_genomedb.loc.sample.i
+data/data_manager/data_manager_snpEff_databases.xml.i
+data/tool_dependencies.xml.i
+data/data_manager/data_manager_snpEff_databases.py.i

@@ -1,0 +1,6 @@
+data/fastx_trimmer.xml.i
+data/test-data/fastx_trimmer1.out.i
+data/test-data/fastx_trimmer2.out.i
+data/test-data/fastx_trimmer2.fastq.i
+data/test-data/fastx_trimmer1.fasta.i
+data/tool_dependencies.xml.i

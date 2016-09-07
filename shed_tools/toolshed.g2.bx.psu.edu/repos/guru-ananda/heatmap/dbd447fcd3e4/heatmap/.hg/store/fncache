@@ -1,0 +1,6 @@
+data/heatmap/tool_dependencies.xml.i
+data/heatmap/test-data/heatmap_out.pdf.i
+data/heatmap/test-data/heatmap_inp.tabular.i
+data/heatmap/r_wrapper.sh.i
+data/heatmap/heatmap.xml.i
+data/tool_dependencies.xml.i

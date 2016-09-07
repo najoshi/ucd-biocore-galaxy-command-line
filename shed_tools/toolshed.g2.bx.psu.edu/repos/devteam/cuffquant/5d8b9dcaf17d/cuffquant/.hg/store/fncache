@@ -1,0 +1,9 @@
+data/test-data/cuffquant_in2.sam.i
+data/test-data/cuffquant_in.gtf.i
+data/tool-data/fasta_indexes.loc.sample.i
+data/cuff_macros.xml.i
+data/tool_data_table_conf.xml.sample.i
+data/test-data/cuffquant_out1.cxb.i
+data/cuffquant_wrapper.xml.i
+data/tool_dependencies.xml.i
+data/test-data/cuffquant_in1.sam.i

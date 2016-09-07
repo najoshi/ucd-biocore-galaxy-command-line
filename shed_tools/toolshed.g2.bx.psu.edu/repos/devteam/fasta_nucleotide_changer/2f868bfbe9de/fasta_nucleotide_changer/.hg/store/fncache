@@ -1,0 +1,6 @@
+data/test-data/fasta_nuc_changer2.fasta.i
+data/test-data/fasta_nuc_changer1.fasta.i
+data/test-data/fasta_nuc_change2.out.i
+data/test-data/fasta_nuc_change1.out.i
+data/tool_dependencies.xml.i
+data/fasta_nucleotide_changer.xml.i

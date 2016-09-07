@@ -1,0 +1,8 @@
+data/test-data/fastq_qual_conv1.fastq.i
+data/fastq_quality_converter.xml.i
+data/test-data/fastq_qual_conv1.out.i
+data/test-data/fastq_qual_conv2.fastq.i
+data/test-data/fastq_qual_conv2n.out.i
+data/test-data/fastq_qual_conv1a.out.i
+data/tool_dependencies.xml.i
+data/test-data/fastq_qual_conv2.out.i

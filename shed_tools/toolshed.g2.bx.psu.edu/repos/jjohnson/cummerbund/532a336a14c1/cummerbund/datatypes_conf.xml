@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<datatypes>
+    <datatype_files>
+        <datatype_file name="cuffdata.py"/>
+    </datatype_files>
+    <registration>
+      <!-- composite dataset with cuffdiff outputs in the extra files path -->
+      <datatype extension="cuffdata" type="galaxy.datatypes.cuffdata:CuffDiffData"/>
+      <!-- SQLite database -->
+      <datatype extension="cuffdatadb" type="galaxy.datatypes.cuffdata:CuffDataDB"/>
+    </registration>
+</datatypes>
+

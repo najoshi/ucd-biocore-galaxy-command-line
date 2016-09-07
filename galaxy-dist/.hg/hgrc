@@ -1,0 +1,5 @@
+[paths]
+default = ssh://hg@bitbucket.org/uc_davis_bioinformatics_core/galaxy-dist-ucdbiocore
+default-push = ssh://hg@bitbucket.org/uc_davis_bioinformatics_core/galaxy-dist-ucdbiocore
+#default = https://bitbucket.org/uc_davis_bioinformatics_core/galaxy-dist-ucdbiocore
+#default-push = https://bitbucket.org/uc_davis_bioinformatics_core/galaxy-dist-ucdbiocore

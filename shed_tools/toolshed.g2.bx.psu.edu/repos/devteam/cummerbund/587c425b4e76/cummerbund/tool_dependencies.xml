@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<tool_dependency>
+    <set_environment version="1.0">
+        <environment_variable action="set_to" name="CUMMERBUND_SCRIPT_PATH">$REPOSITORY_INSTALL_DIR</environment_variable>
+    </set_environment>
+    <package name="cummeRbund" version="2.8.2">
+        <repository changeset_revision="5aacc6d160ed" name="package_cummerbund_2_8_2" owner="iuc" toolshed="https://toolshed.g2.bx.psu.edu" />
+    </package>
+    <package name="R" version="3.1.2">
+        <repository changeset_revision="7cb487a32bde" name="package_r_3_1_2" owner="iuc" toolshed="https://toolshed.g2.bx.psu.edu" />
+    </package>
+</tool_dependency>

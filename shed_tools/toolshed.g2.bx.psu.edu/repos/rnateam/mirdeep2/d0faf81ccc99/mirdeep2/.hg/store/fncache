@@ -1,0 +1,12 @@
+data/test-data/precursors_ref_this_species.fa.i
+data/test-data/result.bed.i
+data/tool_dependencies.xml.i
+data/test-data/survey.csv.i
+data/test-data/mature_ref_this_species.fa.i
+data/test-data/cel_cluster.fa.i
+data/test-data/reads_collapsed_vs_genome.arf.i
+data/test-data/output.mrd.i
+data/test-data/mature_ref_other_species.fa.i
+data/test-data/result.csv.i
+data/test-data/reads_collapsed.fa.i
+data/mirdeep2.xml.i

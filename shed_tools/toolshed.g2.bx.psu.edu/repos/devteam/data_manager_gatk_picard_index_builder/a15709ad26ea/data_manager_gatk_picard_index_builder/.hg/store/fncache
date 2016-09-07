@@ -1,0 +1,7 @@
+data/data_manager_conf.xml.i
+data/tool_data_table_conf.xml.sample.i
+data/tool-data/all_fasta.loc.sample.i
+data/data_manager/data_manager_gatk_picard_index_builder.xml.i
+data/data_manager/data_manager_gatk_picard_index_builder.py.i
+data/tool_dependencies.xml.i
+data/tool-data/gatk_sorted_picard_index.loc.sample.i

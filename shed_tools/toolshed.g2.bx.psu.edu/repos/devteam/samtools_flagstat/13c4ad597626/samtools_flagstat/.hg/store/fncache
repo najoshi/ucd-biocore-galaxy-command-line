@@ -1,0 +1,4 @@
+data/tool_dependencies.xml.i
+data/test-data/samtools_flagstat_out1.txt.i
+data/samtools_flagstat.xml.i
+data/test-data/3unsorted.bam.i

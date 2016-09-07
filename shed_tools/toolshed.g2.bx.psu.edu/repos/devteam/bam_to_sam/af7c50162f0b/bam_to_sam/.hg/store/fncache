@@ -1,0 +1,11 @@
+data/test-data/bam_to_sam_out2.sam.i
+data/macros.xml.i
+data/test-data/bam_to_sam_in2.bam.i
+data/test-data/bam_to_sam_in1.sam.i
+data/bam_to_sam.xml.i
+data/test-data/bam_to_sam_out1.sam.i
+data/test-data/bam_to_sam_in2.sam.i
+data/test-data/bam_to_sam_out3.sam.i
+data/test-data/bam_to_sam_in1.bam.i
+data/tool_dependencies.xml.i
+data/bam_to_sam.py.i

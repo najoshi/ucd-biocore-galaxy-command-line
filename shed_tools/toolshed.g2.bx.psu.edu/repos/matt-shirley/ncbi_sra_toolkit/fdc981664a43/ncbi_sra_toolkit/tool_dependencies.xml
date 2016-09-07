@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<tool_dependency>
+  <package name="sra_toolkit" version="2.4.5">
+    <install version="1.0">
+      <actions>
+        <action type="make_directory">src</action>
+        <action type="make_directory">build</action>
+        <action type="change_directory">src</action>
+        <action type="shell_command">
+            git clone https://github.com/mdshw5/sra-tools.git
+            git clone https://github.com/mdshw5/ncbi-vdb.git
+            git clone https://github.com/mdshw5/ngs.git
+            LD_LIBRARY_PATH=LD_LIBRARY_PATH:$INSTALL_DIR/lib64:$INSTALL_DIR/lib
+            cd $INSTALL_DIR/src/ncbi-vdb
+            ./configure --prefix=$INSTALL_DIR --build-prefix=$INSTALL_DIR/build
+            make
+            make install
+            cd $INSTALL_DIR/src/ngs/ngs-sdk
+            ./configure --prefix=$INSTALL_DIR --build-prefix=$INSTALL_DIR/build
+            make
+            make install
+            cd $INSTALL_DIR/src/sra-tools
+            ./configure --prefix=$INSTALL_DIR --build-prefix=$INSTALL_DIR/build --with-ncbi-vdb-build=$INSTALL_DIR/build --with-ncbi-vdb-sources=$INSTALL_DIR/src/ncbi-vdb --with-ngs-sdk-prefix=$INSTALL_DIR
+            make
+            make install
+            cd $INSTALL_DIR/bin
+            ./vdb-config -s "/repository/user/main/public/cache-enabled=false"
+            ./vdb-config -s "/repository/user/main/public/root=$INSTALL_DIR"
+        </action>
+        <action type="set_environment">
+            <environment_variable name="PATH" action="prepend_to">$INSTALL_DIR/bin</environment_variable>
+        </action>
+      </actions>
+    </install>
+    <readme>
+Tools from NCBI SRA Toolkit for extracting FASTQ and SAM format reads from SRA format archives.
+This software release was designed to run under Linux, MacOSX operating systems on Intel x86-compatible 64 bit architectures.
+When running on Amazon EC2, be sure to keep in mind the size limitation of EBS storage devices when requesting a
+download of a large SRA data set.
+
+Build Requirements:
+  - make
+  - git
+  - gcc
+  - g++
+  - libxml2
+  - libcurl4
+  - zlib
+
+On a debian based Linux OS use:
+
+  apt-get install build-essential libxml2-dev libcurl4-openssl-dev zlib-dev
+
+    </readme>
+  </package>
+</tool_dependency>

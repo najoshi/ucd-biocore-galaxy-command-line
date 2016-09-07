@@ -1,0 +1,4 @@
+data/tool_dependencies.xml.i
+data/test-data/fasta_collapser1.fasta.i
+data/fastx_collapser.xml.i
+data/test-data/fasta_collapser1.out.i

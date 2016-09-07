@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<tool_dependency>
+    <package name="bedtools" version="2.22">
+        <repository changeset_revision="960f83563956" name="package_bedtools_2_22" owner="iuc" toolshed="https://toolshed.g2.bx.psu.edu" />
+    </package>
+</tool_dependency>

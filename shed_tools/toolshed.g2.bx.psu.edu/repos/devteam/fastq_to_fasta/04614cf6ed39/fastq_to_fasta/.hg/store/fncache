@@ -1,0 +1,5 @@
+data/test-data/fastq_to_fasta1b.out.i
+data/test-data/fastq_to_fasta1a.out.i
+data/fastq_to_fasta.xml.i
+data/test-data/fastq_to_fasta1.fastq.i
+data/tool_dependencies.xml.i

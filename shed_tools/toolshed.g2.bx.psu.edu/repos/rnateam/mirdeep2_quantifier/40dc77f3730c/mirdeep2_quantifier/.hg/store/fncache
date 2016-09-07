@@ -1,0 +1,7 @@
+data/test-data/precursors_ref_this_species.fa.i
+data/test-data/expression_galaxy.html.i
+data/test-data/mature_ref_this_species.fa.i
+data/test-data/miRNAs_expressed_all_samples.csv.i
+data/tool_dependencies.xml.i
+data/test-data/reads_collapsed.fa.i
+data/quantifier.xml.i

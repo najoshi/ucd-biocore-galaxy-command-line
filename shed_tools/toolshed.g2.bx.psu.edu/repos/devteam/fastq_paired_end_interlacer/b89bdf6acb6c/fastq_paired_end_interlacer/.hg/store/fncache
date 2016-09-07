@@ -1,0 +1,11 @@
+data/fastq_paired_end_interlacer.xml.i
+data/fastq_paired_end_interlacer.py.i
+data/test-data/paired_end_1_errors.fastqsanger.i
+data/test-data/paired_end_merged.fastqsanger.i
+data/test-data/paired_end_2_errors.fastqsanger.i
+data/test-data/paired_end_merged_cleaned_singles.fastqsanger.i
+data/tool_dependencies.xml.i
+data/test-data/paired_end_merged_cleaned.fastqsanger.i
+data/test-data/paired_end_1.fastqsanger.i
+data/test-data/paired_end_2.fastqsanger.i
+data/test-data/paired_end_merged_singles.fastqsanger.i

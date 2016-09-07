@@ -1,0 +1,14 @@
+data/test-data/cufflinks_out5.gtf.i
+data/cuff_macros.xml.i
+data/tool-data/sam_fa_indices.loc.sample.i
+data/test-data/cufflinks_out1.gtf.i
+data/cufflinks_wrapper.xml.i
+data/tool_data_table_conf.xml.sample.i
+data/tool-data/fasta_indexes.loc.sample.i
+data/tool_dependencies.xml.i
+data/test-data/cufflinks_out3.fpkm_tracking.i
+data/cufflinks_wrapper.py.i
+data/test-data/cufflinks_out4.gtf.i
+data/test-data/cufflinks_out4.txt.i
+data/test-data/cufflinks_in.bam.i
+data/test-data/cufflinks_out2.fpkm_tracking.i

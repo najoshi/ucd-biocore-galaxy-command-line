@@ -1,0 +1,7 @@
+data/test-data/pileup_interval_out1.tabular.i
+data/test-data/pileup_interval_out2.tabular.i
+data/test-data/pileup_interval_in1.tabular.i
+data/test-data/pileup_interval_in2.tabular.i
+data/pileup_interval.xml.i
+data/tool_dependencies.xml.i
+data/pileup_interval.py.i

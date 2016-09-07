@@ -1,0 +1,7 @@
+data/test-data/solexa_full_range_original_solexa.fastqsolexa.i
+data/fastq_filter.xml.i
+data/test-data/sanger_full_range_as_cssanger.fastqcssanger.i
+data/test-data/sanger_full_range_original_sanger.fastqsanger.i
+data/fastq_filter.py.i
+data/tool_dependencies.xml.i
+data/test-data/empty_file.dat.i

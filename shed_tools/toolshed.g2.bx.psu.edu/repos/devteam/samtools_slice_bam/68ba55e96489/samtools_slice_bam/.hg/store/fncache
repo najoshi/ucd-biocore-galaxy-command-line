@@ -1,0 +1,5 @@
+data/samtools_slice_bam.xml.i
+data/tool_dependencies.xml.i
+data/test-data/gatk/fake_phiX_reads_1.bam.i
+data/samtools_slice_bam.py.i
+data/test-data/gatk/fake_phiX_variant_locations.bed.i

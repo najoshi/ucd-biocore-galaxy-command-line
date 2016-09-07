@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<tables>
+<table comment_char="#" name="ceas_refgene_tables">
+        <columns>value, name, path</columns>
+        <file path="/home/galaxy/galaxy-dist/tool-data/toolshed.g2.bx.psu.edu/repos/nikhil-joshi/ceas/012afa77c724/ceas_tables.loc" />
+    <tool_shed_repository><tool_shed>toolshed.g2.bx.psu.edu</tool_shed><repository_name>ceas</repository_name><repository_owner>nikhil-joshi</repository_owner><installed_changeset_revision>012afa77c724</installed_changeset_revision></tool_shed_repository></table>
+</tables>

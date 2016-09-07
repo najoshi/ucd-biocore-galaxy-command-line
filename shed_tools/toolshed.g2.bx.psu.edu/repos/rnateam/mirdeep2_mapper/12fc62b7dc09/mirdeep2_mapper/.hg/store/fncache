@@ -1,0 +1,7 @@
+data/mapper.xml.i
+data/test-data/reads.fa.d
+data/test-data/reads.fa.i
+data/tool-data/bowtie_indices.loc.sample.i
+data/test-data/cel_cluster.fa.i
+data/tool_data_table_conf.xml.sample.i
+data/tool_dependencies.xml.i

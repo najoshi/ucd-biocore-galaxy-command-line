@@ -1,0 +1,9 @@
+data/test-data/phiX174.fasta.i
+data/test-data/phiX174.data_manager_json.i
+data/data_manager/data_manager_fetch_genome_all_fasta_dbkeys.py.i
+data/README.i
+data/tool-data/dbkeys.loc.sample.i
+data/data_manager_conf.xml.i
+data/tool_data_table_conf.xml.sample.i
+data/tool-data/all_fasta.loc.sample.i
+data/data_manager/data_manager_fetch_genome_all_fasta_dbkeys.xml.i

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<tables>
+<!--  Locations of all fasta files under genome directory  -->
+<table comment_char="#" name="all_fasta">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/home/galaxy/galaxy-dist/tool-data/toolshed.g2.bx.psu.edu/repos/devteam/data_manager_fetch_genome_dbkeys_all_fasta/bca4c608408c/all_fasta.loc" />
+    <tool_shed_repository><tool_shed>toolshed.g2.bx.psu.edu</tool_shed><repository_name>data_manager_fetch_genome_dbkeys_all_fasta</repository_name><repository_owner>devteam</repository_owner><installed_changeset_revision>bca4c608408c</installed_changeset_revision></tool_shed_repository></table>
+    <!--  Locations of dbkeys and len files under genome directory  -->
+<table comment_char="#" name="__dbkeys__">
+        <columns>value, name, len_path</columns>
+        <file path="/home/galaxy/galaxy-dist/tool-data/toolshed.g2.bx.psu.edu/repos/devteam/data_manager_fetch_genome_dbkeys_all_fasta/bca4c608408c/dbkeys.loc" />
+    <tool_shed_repository><tool_shed>toolshed.g2.bx.psu.edu</tool_shed><repository_name>data_manager_fetch_genome_dbkeys_all_fasta</repository_name><repository_owner>devteam</repository_owner><installed_changeset_revision>bca4c608408c</installed_changeset_revision></tool_shed_repository></table>
+</tables>

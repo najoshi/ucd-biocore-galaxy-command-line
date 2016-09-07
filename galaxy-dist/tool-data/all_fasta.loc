@@ -1,0 +1,33 @@
+#This file lists the locations and dbkeys of all the fasta files
+#under the "genome" directory (a directory that contains a directory
+#for each build). The script extract_fasta.py will generate the file
+#all_fasta.loc. This file has the format (white space characters are
+#TAB characters):
+#
+#<unique_build_id>   <dbkey>   <display_name>   <file_path>
+#
+#So, all_fasta.loc could look something like this:
+#
+#apiMel3     apiMel3   Honeybee (Apis mellifera): apiMel3     /path/to/genome/apiMel3/apiMel3.fa
+#hg19canon   hg19      Human (Homo sapiens): hg19 Canonical   /path/to/genome/hg19/hg19canon.fa
+#hg19full    hg19      Human (Homo sapiens): hg19 Full        /path/to/genome/hg19/hg19full.fa
+#
+#Your all_fasta.loc file should contain an entry for each individual
+#fasta file. So there will be multiple fasta files for each build,
+#such as with hg19 above.
+#
+
+hg19	hg19	H. sapiens hg19	/data/refs/hg19/genome.fa
+rn4	rn4	R. norvegicus rn4	/data/refs/rn4/genome.fa
+sacCer3	sacCer3	S. cerevisiae sacCer3	/data/refs/sacCer3/genome.fa
+ce10	ce10	C. elegans ce10	/data/refs/ce10/genome.fa
+dm3	dm3	D. melanogaster dm3	/data/refs/dm3/genome.fa
+at10	at10	A. thaliana at10	/data/refs/at10/genome.fa
+mm10	mm10	M. musculus mm10	/data/refs/mm10/genome.fa
+dr7	dr7	D. rerio Zv9/danRer7	/data/refs/dr7/genome.fa
+hg19_chr12	hg19_chr12	hg19_chr12	/data/refs/hg19/chr12.fa
+hg19_chr20	hg19_chr20	hg19_chr20	/data/refs/hg19/chr20.fa
+mm10_chr12	mm10_chr12	mm10_chr12	/data/refs/mm10/chr12.fa
+rn4_chr12	rn4_chr12	rn4_chr12	/data/refs/rn4/chr12.fa
+os7_chr12	os7_chr12	os7_chr12	/data/refs/os7/chr12.fa
+hg38	hg38	H. sapiens hg38	/data/refs/hg38/genome.fa

@@ -1,0 +1,13 @@
+data/test-data/freebayes-phix174.bam.i
+data/test-data/freebayes_out_1.output_trace.i
+data/test-data/fake_phiX_reads_1.bam.i
+data/test-data/freebayes-phix174-test1.vcf.i
+data/test-data/freebayes-phix174.fasta.i
+data/test-data/freebayes_out_1.vcf.contains.i
+data/tool_data_table_conf.xml.sample.i
+data/freebayes.xml.i
+data/test-data/phiX.fasta.i
+data/tool-data/tool_data_table_conf.xml.sample.i
+data/tool_dependencies.xml.i
+data/tool-data/sam_fa_indices.loc.sample.i
+data/sam_fa_indices.loc.sample.i

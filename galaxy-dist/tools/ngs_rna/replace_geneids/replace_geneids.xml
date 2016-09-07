@@ -1,0 +1,25 @@
+<tool id="replace_geneids" name="Replace gene IDs" version="">
+    <description>for novel genes in gtf file</description>
+    <command><![CDATA[
+
+	cat $gtf | perl -pne 'if ((\$gid,\$gn)=\$_=~/gene_id \"(.+?)\".+gene_name \"(.+?)\"/) {\$_=~s/\$gid/\$gn/g;}' > $output
+
+	]]>
+
+</command>
+
+<inputs>
+
+<param name="gtf" type="data" format="gtf" label="GTF file" />
+
+</inputs>
+
+    <outputs>
+        <data format="gtf" name="output" label="Replace gene IDs on ${on_string}" />
+    </outputs>
+
+<help>
+This tool will take a GTF file and will replace the gene_id field with the gene_name on each line, for those lines that have a gene_name field. For those lines that do not have a gene_name field (i.e. the novel genes) it will keep the line as is. This is so that, when running featureCounts, the known genes will have the gene names in the counts table and the novel genes will have the assigned gene_id.
+</help>
+
+</tool>

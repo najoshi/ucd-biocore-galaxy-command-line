@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<tables>
+<columns>value, dbkey, name, path</columns>
+        <file path="tool-data/fasta_indexes.loc" />
+     </tables>

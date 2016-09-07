@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<tables>
+<!--  Location of Picard dict files valid for GATK  -->
+<table comment_char="#" name="gatk2_picard_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/home/galaxy/galaxy-dist/tool-data/toolshed.g2.bx.psu.edu/repos/iuc/gatk2/84584664264c/gatk2_picard_index.loc" />
+    <tool_shed_repository><tool_shed>toolshed.g2.bx.psu.edu</tool_shed><repository_name>gatk2</repository_name><repository_owner>iuc</repository_owner><installed_changeset_revision>84584664264c</installed_changeset_revision></tool_shed_repository></table>
+    <!--  Available of GATK references  -->
+<table comment_char="#" name="gatk2_annotations">
+        <columns>value, name, gatk_value, tools_valid_for</columns>
+        <file path="/home/galaxy/galaxy-dist/tool-data/toolshed.g2.bx.psu.edu/repos/iuc/gatk2/84584664264c/gatk2_annotations.txt" />
+    <tool_shed_repository><tool_shed>toolshed.g2.bx.psu.edu</tool_shed><repository_name>gatk2</repository_name><repository_owner>iuc</repository_owner><installed_changeset_revision>84584664264c</installed_changeset_revision></tool_shed_repository></table>
+</tables>

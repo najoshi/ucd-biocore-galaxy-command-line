@@ -1,0 +1,8 @@
+data/.shed.yml.i
+data/data_manager_conf.xml.i
+data/tool-data/bwa_mem_index.loc.sample.i
+data/data_manager/bwa_mem_index_builder.py.i
+data/tool-data/all_fasta.loc.sample.i
+data/tool_dependencies.xml.i
+data/data_manager/bwa_mem_index_builder.xml.i
+data/tool_data_table_conf.xml.sample.i

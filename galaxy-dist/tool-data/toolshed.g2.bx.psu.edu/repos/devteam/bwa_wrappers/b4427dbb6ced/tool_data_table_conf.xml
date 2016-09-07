@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<tables>
+<!--  Locations of indexes in the BWA mapper format  -->
+<table comment_char="#" name="bwa_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/home/galaxy/galaxy-dist/tool-data/toolshed.g2.bx.psu.edu/repos/devteam/bwa_wrappers/b4427dbb6ced/bwa_index.loc" />
+    <tool_shed_repository><tool_shed>toolshed.g2.bx.psu.edu</tool_shed><repository_name>bwa_wrappers</repository_name><repository_owner>devteam</repository_owner><installed_changeset_revision>b4427dbb6ced</installed_changeset_revision></tool_shed_repository></table>
+    <!--  Locations of indexes in the BWA color-space mapper format  -->
+<table comment_char="#" name="bwa_indexes_color">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/home/galaxy/galaxy-dist/tool-data/toolshed.g2.bx.psu.edu/repos/devteam/bwa_wrappers/b4427dbb6ced/bwa_index_color.loc" />
+    <tool_shed_repository><tool_shed>toolshed.g2.bx.psu.edu</tool_shed><repository_name>bwa_wrappers</repository_name><repository_owner>devteam</repository_owner><installed_changeset_revision>b4427dbb6ced</installed_changeset_revision></tool_shed_repository></table>
+</tables>

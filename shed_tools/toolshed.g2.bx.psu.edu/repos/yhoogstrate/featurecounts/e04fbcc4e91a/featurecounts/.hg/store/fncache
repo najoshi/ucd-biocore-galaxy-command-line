@@ -1,0 +1,11 @@
+data/test-data/output.tab.i
+data/test-data/featureCounts_input1.bam.i
+data/test-data/featureCounts_guide.gff.i
+data/test-data/featureCounts_input2.bam.i
+data/featurecounts.xml.i
+data/README.rst.i
+data/tool_dependencies.xml.i
+data/tool-data/gene_sets.loc.sample.i
+data/tool_data_table_conf.xml.sample.i
+data/featurecounts2bed.sh.i
+data/test-data/output_summary.tab.i

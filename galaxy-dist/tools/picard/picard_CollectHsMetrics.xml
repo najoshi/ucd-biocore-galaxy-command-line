@@ -1,0 +1,131 @@
+<tool name="CollectHsMetrics" id="picard_CollectHsMetrics" version="@TOOL_VERSION@.0">
+  <description>Collects hybrid-selection metrics for a SAM or BAM file.</description>
+  <macros>
+    <import>picard_macros.xml</import>
+  </macros>
+  <expand macro="requirements">
+    <requirement type="package" version="3.1.2">R</requirement>
+  </expand>
+  <command>
+    @java_options@
+    ##set up input files
+
+    #set $reference_fasta_filename = "localref.fa"
+    
+    #if str( $reference_source.reference_source_selector ) == "history":
+        ln -s "${reference_source.ref_file}" "${reference_fasta_filename}" &amp;&amp;
+	samtools faidx "${reference_fasta_filename}" &amp;&amp;
+    #else:
+        #set $reference_fasta_filename = str( $reference_source.ref_file.fields.path )
+    #end if
+
+    /software/java/jdk1.8.0_20/static/bin/java -jar /software/picard-tools/2.6.0/static/picard.jar
+    CollectHsMetrics
+    INPUT="${inputFile}"
+    OUTPUT="${outFile}"
+    BAIT_INTERVALS="${baitfile}"
+    TARGET_INTERVALS="${targetfile}"
+    
+    REFERENCE_SEQUENCE="${reference_fasta_filename}"
+    METRIC_ACCUMULATION_LEVEL="${metric_accumulation_level}"
+    NEAR_DISTANCE="${near_dist}"
+    COVERAGE_CAP="${cov_cap}"
+    SAMPLE_SIZE="${sample_size}"
+
+    VALIDATION_STRINGENCY="${validation_stringency}"
+    QUIET=true
+    VERBOSITY=ERROR
+  
+  </command>
+  <inputs>
+    <param format="sam,bam" name="inputFile" type="data" label="Select SAM/BAM dataset or dataset collection" help="If empty, upload or import a SAM/BAM dataset."/>
+    <conditional name="reference_source">
+      <param name="reference_source_selector" type="select" label="Load reference genome from">
+        <option value="cached">Local cache</option>
+        <option value="history">History</option>
+      </param>
+      <when value="cached">
+        <param name="ref_file" type="select" label="Using reference genome" help="REFERENCE_SEQUENCE">
+          <options from_data_table="all_fasta">
+          </options>
+          <validator type="no_options" message="A built-in reference genome is not available for the build associated with the selected input file"/>
+        </param>
+      </when>
+      <when value="history">
+        <param name="ref_file" type="data" format="fasta" label="Use the following dataset as the reference sequence" help="REFERENCE_SEQUENCE; You can upload a FASTA sequence to the history and use it as reference" />
+      </when>
+    </conditional>
+
+    <param format="interval" name="baitfile" type="data" label="An interval list file that contains the locations of the baits used."/>
+    <param format="interval" name="targetfile" type="data" label="An interval list file that contains the locations of the targets."/> 
+
+    <param name="min_mq" type="integer" value="20" label="Minimum mapping quality for a read to contribute coverage."/>
+    <param name="min_bq" type="integer" value="20" label="Minimum base quality for a read to contribute coverage."/>
+    <param name="cor" type="boolean" label="Clip overlapping reads?" checked="true" truevalue="true" falsevalue="false" />
+
+
+    <param name="assume_sorted" type="boolean" label="Assume the input file is already sorted" checked="true" truevalue="true" falsevalue="false" help="ASSUME_SORTED"/>
+    <param name="metric_accumulation_level" type="select" label="The level at which to accumulate metrics" multiple="true" help="METRIC_ACCUMULATION_LEVEL">
+      <option value="ALL_READS" selected="True">All reads</option>
+      <option value="SAMPLE">Sample</option>
+      <option value="LIBRARY">Library</option>
+      <option value="READ_GROUP">Read group</option>
+    </param>
+
+    <param name="near_dist" type="integer" value="250" label="The maximum distance between a read and the nearest probe/bait/amplicon for the read to be considered 'near probe' and included in percent selected."/>
+    <param name="cov_cap" type="integer" value="200" label="Parameter to set a max coverage limit for Theoretical Sensitivity calculations."/>
+    <param name="sample_size" type="integer" value="10000" label="Sample Size used for Theoretical Het Sensitivity sampling."/>
+    
+    <expand macro="VS" />
+    
+  </inputs>
+  
+  <outputs>
+    <data format="txt" name="outFile"/>
+  </outputs>
+  
+  <tests>
+    <test>
+      <param name="metric_accumulation_level" value="ALL_READS"/>
+      <param name="deviations" value="10.0" />
+      <param name="hist_width" value="500" />
+      <param name="min_pct" value="0.05" />
+      <param name="assume_sorted" value="true" />
+      <param name="reference_source_selector" value="history" />
+      <param name="ref_file" value="picard_CollectInsertSizeMetrics_ref.fa" />
+      <param name="inputFile" value="picard_CollectInsertSizeMetrics.bam" ftype="bam" />
+      <output name="outFile" file="picard_CollectInsertSizeMetrics_test1.tab" ftype="tabular" lines_diff="4"/>
+    </test>
+  </tests>
+  
+  <stdio>
+    <exit_code range="1:"  level="fatal"/>
+  </stdio>
+  
+  <help>
+
+.. class:: infomark
+
+**Purpose**
+
+Collects hybrid-selection (HS) metrics for a SAM or BAM file.
+
+Documentation: http://broadinstitute.github.io/picard/command-line-overview.html#CollectHsMetrics
+
+This tool takes a SAM/BAM file input and collects metrics that are specific for sequence datasets generated through hybrid-selection. Hybrid-selection (HS) is the most commonly used technique to capture exon-specific sequences for targeted sequencing experiments such as exome sequencing; for more information, please see the corresponding GATK Dictionary entry (http://www.broadinstitute.org/gatk/guide/article?id=6331). 
+ 
+This tool requires an aligned SAM or BAM file as well as bait and target interval files in Picard interval_list format. You should use the bait and interval files that correspond to the capture kit that was used to generate the capture libraries for sequencing, which can generally be obtained from the kit manufacturer. If the baits and target intervals are provided in BED format, you can convert them to the Picard interval_list format using Picard's BedToInterval (http://broadinstitute.github.io/picard/command-line-overview.html#BedToIntervalList) tool. 
+
+If a reference sequence is provided, this program will calculate both AT_DROPOUT and GC_DROPOUT metrics. Dropout metrics are an attempt to measure the reduced representation of reads, in regions that deviate from 50% G/C content. This reduction in the number of aligned reads is due to the increased numbers of errors associated with sequencing regions with excessive or deficient numbers of G/C bases, ultimately leading to poor mapping efficiencies and lowcoverage in the affected regions. 
+
+If you are interested in getting G/C content and mean sequence depth information for every target interval, use the PER_TARGET_COVERAGE option. 
+
+Note: Metrics labeled as percentages are actually expressed as fractions!
+
+ 
+@more_info@
+
+  </help>
+</tool>
+
+

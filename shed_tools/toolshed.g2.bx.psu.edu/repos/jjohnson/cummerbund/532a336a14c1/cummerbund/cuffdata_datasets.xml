@@ -1,0 +1,189 @@
+<tool id="cuffdata_datasets" name="Cuffdata datasets" version="0.0.6">
+    <!-- Wrapper supports Cuffdiff versions v1.3.0-v2.0 -->
+    <description>history datasets from Cuffdiff output</description>
+    <requirements>
+        <requirement type="package">cufflinks</requirement>
+    </requirements>
+    <command>
+    #set sel_outputs = $output_sel.__str__.split(',')
+    #if 'run_info' in $sel_outputs:
+        cat ${cuffdata.extra_files_path}/run.info > $run_info;
+    #end if
+    #if 'read_groups_info' in $sel_outputs:
+        cat ${cuffdata.extra_files_path}/read_groups.info > $read_groups_info;
+    #end if
+
+    #if 'splicing_diff' in $sel_outputs:
+        cat ${cuffdata.extra_files_path}/splicing.diff > $splicing_diff;
+    #end if
+    #if 'promoters_diff' in $sel_outputs:
+        cat ${cuffdata.extra_files_path}/promoters.diff > $promoters_diff;
+    #end if
+
+    #if 'cds_diff' in $sel_outputs:
+        cat ${cuffdata.extra_files_path}/cds.diff > $cds_diff;
+    #end if
+    #if 'cds_exp_diff' in $sel_outputs:
+        cat ${cuffdata.extra_files_path}/cds_exp.diff > $cds_exp_diff;
+    #end if
+    #if 'cds_fpkm_tracking' in $sel_outputs:
+        cat ${cuffdata.extra_files_path}/cds.fpkm_tracking > $cds_fpkm_tracking;
+    #end if
+    #if 'cds_count_tracking' in $sel_outputs:
+        cat ${cuffdata.extra_files_path}/cds.count_tracking > $cds_count_tracking;
+    #end if
+    #if 'cds_read_group_tracking' in $sel_outputs:
+        cat ${cuffdata.extra_files_path}/cds.read_group_tracking > $cds_read_group_tracking;
+    #end if
+
+    #if 'tss_groups_exp_diff' in $sel_outputs:
+        cat ${cuffdata.extra_files_path}/tss_groups_exp.diff > $tss_groups_exp_diff;
+    #end if
+    #if 'tss_groups_fpkm_tracking' in $sel_outputs:
+        cat ${cuffdata.extra_files_path}/tss_groups.fpkm_tracking > $tss_groups_fpkm_tracking;
+    #end if
+    #if 'tss_groups_count_tracking' in $sel_outputs:
+        cat ${cuffdata.extra_files_path}/tss_groups.count_tracking > $tss_groups_count_tracking;
+    #end if
+    #if 'tss_groups_read_group_tracking' in $sel_outputs:
+        cat ${cuffdata.extra_files_path}/tss_groups.read_group_tracking > $tss_groups_read_group_tracking;
+    #end if
+
+    #if 'genes_exp_diff' in $sel_outputs:
+        cat ${cuffdata.extra_files_path}/genes_exp.diff > $genes_exp_diff;
+    #end if
+    #if 'genes_fpkm_tracking' in $sel_outputs:
+        cat ${cuffdata.extra_files_path}/genes.fpkm_tracking > $genes_fpkm_tracking;
+    #end if
+    #if 'genes_count_tracking' in $sel_outputs:
+        cat ${cuffdata.extra_files_path}/genes.count_tracking > $genes_count_tracking;
+    #end if
+    #if 'genes_read_group_tracking' in $sel_outputs:
+        cat ${cuffdata.extra_files_path}/genes.read_group_tracking > $genes_read_group_tracking;
+    #end if
+
+    #if 'isoforms_exp_diff' in $sel_outputs:
+        cat ${cuffdata.extra_files_path}/isoforms_exp.diff > $isoforms_exp_diff;
+    #end if
+    #if 'isoforms_fpkm_tracking' in $sel_outputs:
+        cat ${cuffdata.extra_files_path}/isoforms.fpkm_tracking > $isoforms_fpkm_tracking;
+    #end if
+    #if 'isoforms_count_tracking' in $sel_outputs:
+        cat ${cuffdata.extra_files_path}/isoforms.count_tracking > $isoforms_count_tracking;
+    #end if
+    #if 'isoforms_read_group_tracking' in $sel_outputs:
+        cat ${cuffdata.extra_files_path}/isoforms.read_group_tracking > $isoforms_read_group_tracking;
+    #end if
+
+    </command>
+    <inputs>
+        <param name="cuffdata" type="data" format="cuffdata" label="Cuffidif cuffdata" help=""/>
+        <param name="output_sel" type="select" multiple="true" display="checkboxes" force_select="true" label="Select outputs for history datasets">
+            <option value="run_info">run.info</option>
+            <option value="read_groups_info">read_groups.info</option>
+            <option value="splicing_diff">splicing.diff</option>
+            <option value="promoters_diff">promoters.diff</option>
+            <option value="genes_exp_diff">genes_exp.diff</option>
+            <option value="genes_fpkm_tracking">genes.fpkm_tracking</option>
+            <option value="genes_count_tracking">genes.count_tracking</option>
+            <option value="genes_read_group_tracking">genes.read_group_tracking</option>
+            <option value="isoforms_exp_diff">isoforms.exp_diff</option>
+            <option value="isoforms_fpkm_tracking">isoforms.fpkm_tracking</option>
+            <option value="isoforms_count_tracking">isoforms.count_tracking</option>
+            <option value="isoforms_read_group_tracking">isoforms.read_group_tracking</option>
+            <option value="cds_diff">cds.diff</option>
+            <option value="cds_exp_diff">cds_exp.diff</option>
+            <option value="cds_fpkm_tracking">cds.fpkm_tracking</option>
+            <option value="cds_count_tracking">cds.count_tracking</option>
+            <option value="cds_read_group_tracking">cds.read_group_tracking</option>
+	    <option value="tss_groups_exp_diff">tss_groups_exp.diff</option>
+            <option value="tss_groups_fpkm_tracking">tss_groups.fpkm_tracking</option>
+            <option value="tss_groups_count_tracking">tss_groups.count_tracking</option>
+            <option value="tss_groups_read_group_tracking">tss_groups.read_group_tracking</option>
+        </param>
+    </inputs>
+
+    <outputs>
+        <data format="text" name="run_info" label="${tool.name} on ${on_string}: run.info">
+            <filter>'run_info' in output_sel</filter>
+        </data>
+        <data format="tabular" name="read_groups_info" label="${tool.name} on ${on_string}: read_groups.info">
+            <filter>'read_groups_info' in output_sel</filter>
+        </data>
+        <data format="tabular" name="splicing_diff" label="${tool.name} on ${on_string}: splicing differential expression testing">
+            <filter>'splicing_diff' in output_sel</filter>
+        </data>
+        <data format="tabular" name="promoters_diff" label="${tool.name} on ${on_string}: promoters differential expression testing">
+            <filter>'promoters_diff' in output_sel</filter>
+        </data>
+        <data format="tabular" name="cds_diff" label="${tool.name} on ${on_string}: CDS overloading diffential expression testing">
+            <filter>'cds_diff' in output_sel</filter>
+        </data>
+        <data format="tabular" name="cds_exp_diff" label="${tool.name} on ${on_string}: CDS differential expression testing">
+            <filter>'cds_exp_diff' in output_sel</filter>
+        </data>
+        <data format="tabular" name="cds_fpkm_tracking" label="${tool.name} on ${on_string}: CDS FPKM tracking">
+            <filter>'cds_fpkm_tracking' in output_sel</filter>
+        </data>
+        <data format="tabular" name="cds_count_tracking" label="${tool.name} on ${on_string}: CDS counts">
+            <filter>'cds_count_tracking' in output_sel</filter>
+        </data>
+        <data format="tabular" name="cds_read_group_tracking" label="${tool.name} on ${on_string}: CDS Read Group tracking">
+            <filter>'cds_read_group_tracking' in output_sel</filter>
+        </data>
+        <data format="tabular" name="tss_groups_exp_diff" label="${tool.name} on ${on_string}: TSS groups differential expression testing">
+            <filter>'tss_groups_exp_diff' in output_sel</filter>
+        </data>
+        <data format="tabular" name="tss_groups_fpkm_tracking" label="${tool.name} on ${on_string}: TSS groups FPKM tracking">
+            <filter>'tss_groups_fpkm_tracking' in output_sel</filter>
+        </data>
+        <data format="tabular" name="tss_groups_count_tracking" label="${tool.name} on ${on_string}: TSS groups counts">
+            <filter>'tss_groups_count_tracking' in output_sel</filter>
+        </data>
+        <data format="tabular" name="tss_groups_read_group_tracking" label="${tool.name} on ${on_string}: TSS groups Read Group tracking">
+            <filter>'tss_groups_read_group_tracking' in output_sel</filter>
+        </data>
+        <data format="tabular" name="isoforms_exp_diff" label="${tool.name} on ${on_string}: transcript differential expression testing">
+            <filter>'isoforms_exp_diff' in output_sel</filter>
+        </data>
+        <data format="tabular" name="isoforms_fpkm_tracking" label="${tool.name} on ${on_string}: transcript FPKM tracking">
+            <filter>'isoforms_fpkm_tracking' in output_sel</filter>
+        </data>
+        <data format="tabular" name="isoforms_count_tracking" label="${tool.name} on ${on_string}: transcript counts">
+            <filter>'isoforms_count_tracking' in output_sel</filter>
+        </data>
+        <data format="tabular" name="isoforms_read_group_tracking" label="${tool.name} on ${on_string}: transcript Read Group tracking">
+            <filter>'isoforms_read_group_tracking' in output_sel</filter>
+        </data>
+        <data format="tabular" name="genes_exp_diff" label="${tool.name} on ${on_string}: gene differential expression testing">
+            <filter>'genes_exp_diff' in output_sel</filter>
+        </data>
+        <data format="tabular" name="genes_fpkm_tracking" label="${tool.name} on ${on_string}: gene FPKM tracking">
+            <filter>'genes_fpkm_tracking' in output_sel</filter>
+        </data>
+        <data format="tabular" name="genes_count_tracking" label="${tool.name} on ${on_string}: gene counts">
+            <filter>'genes_count_tracking' in output_sel</filter>
+        </data>
+        <data format="tabular" name="genes_read_group_tracking" label="${tool.name} on ${on_string}: gene Read Group tracking">
+            <filter>'genes_read_group_tracking' in output_sel</filter>
+        </data>
+    </outputs>
+    <stdio>
+        <exit_code range="1:"  level="fatal"   description="Cufflinks Err" />
+    </stdio>
+
+
+    <tests>
+    </tests>
+
+    <help>
+**Cuffdata to history datasets**
+
+Copy Cuffdiff output files from a cuffdata html page to datasets in your history.
+
+Cuffdiff is part of Cufflinks_. Cuffdiff find significant changes in transcript expression, splicing, and promoter use. Please cite: Trapnell C, Williams BA, Pertea G, Mortazavi AM, Kwan G, van Baren MJ, Salzberg SL, Wold B, Pachter L. Transcript assembly and abundance estimation from RNA-Seq reveals thousands of new transcripts and switching among isoforms. Nature Biotechnology doi:10.1038/nbt.1621
+
+.. _Cufflinks: http://cufflinks.cbcb.umd.edu/
+        
+    </help>
+</tool>

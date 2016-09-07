@@ -1,0 +1,70 @@
+
+#############################################
+export PYTHONPATH=$PYTHONPATH:/home/galaxy/shed_tools/galaxy_sequence_utils/1.0.0/devteam/package_galaxy_utils_1_0/0643676ad5f7/lib/python && python setup.py install --home /home/galaxy/shed_tools/galaxy_sequence_utils/1.0.0/devteam/package_galaxy_utils_1_0/0643676ad5f7
+STDOUT
+running install
+running bdist_egg
+running egg_info
+creating lib/galaxy_sequence_utils.egg-info
+writing lib/galaxy_sequence_utils.egg-info/PKG-INFO
+creating build
+copying lib/galaxy_utils/sequence/transform.py -> build/lib.linux-x86_64-2.7/galaxy_utils/sequence
+copying lib/galaxy_utils/sequence/sequence.py -> build/lib.linux-x86_64-2.7/galaxy_utils/sequence
+copying lib/galaxy_utils/sequence/fastq.py -> build/lib.linux-x86_64-2.7/galaxy_utils/sequence
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/galaxy_utils
+copying build/lib.linux-x86_64-2.7/galaxy_utils/__init__.py -> build/bdist.linux-x86_64/egg/galaxy_utils
+creating build/bdist.linux-x86_64/egg/galaxy_utils/sequence
+copying build/lib.linux-x86_64-2.7/galaxy_utils/sequence/fasta.py -> build/bdist.linux-x86_64/egg/galaxy_utils/sequence
+copying build/lib.linux-x86_64-2.7/galaxy_utils/sequence/__init__.py -> build/bdist.linux-x86_64/egg/galaxy_utils/sequence
+copying build/lib.linux-x86_64-2.7/galaxy_utils/sequence/vcf.py -> build/bdist.linux-x86_64/egg/galaxy_utils/sequence
+copying build/lib.linux-x86_64-2.7/galaxy_utils/sequence/transform.py -> build/bdist.linux-x86_64/egg/galaxy_utils/sequence
+copying build/lib.linux-x86_64-2.7/galaxy_utils/sequence/sequence.py -> build/bdist.linux-x86_64/egg/galaxy_utils/sequence
+copying build/lib.linux-x86_64-2.7/galaxy_utils/sequence/fastq.py -> build/bdist.linux-x86_64/egg/galaxy_utils/sequence
+byte-compiling build/bdist.linux-x86_64/egg/galaxy_utils/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/galaxy_utils/sequence/fasta.py to fasta.pyc
+byte-compiling build/bdist.linux-x86_64/egg/galaxy_utils/sequence/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/galaxy_utils/sequence/vcf.py to vcf.pyc
+byte-compiling build/bdist.linux-x86_64/egg/galaxy_utils/sequence/transform.py to transform.pyc
+byte-compiling build/bdist.linux-x86_64/egg/galaxy_utils/sequence/sequence.py to sequence.pyc
+byte-compiling build/bdist.linux-x86_64/egg/galaxy_utils/sequence/fastq.py to fastq.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying lib/galaxy_sequence_utils.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying lib/galaxy_sequence_utils.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying lib/galaxy_sequence_utils.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying lib/galaxy_sequence_utils.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying lib/galaxy_sequence_utils.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/galaxy_sequence_utils-1.0.0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Creating /home/galaxy/shed_tools/galaxy_sequence_utils/1.0.0/devteam/package_galaxy_utils_1_0/0643676ad5f7/lib/python/site.py
+Processing distribute-0.6.38-py2.7.egg
+creating /home/galaxy/shed_tools/galaxy_sequence_utils/1.0.0/devteam/package_galaxy_utils_1_0/0643676ad5f7/lib/python/distribute-0.6.38-py2.7.egg
+Extracting distribute-0.6.38-py2.7.egg to /home/galaxy/shed_tools/galaxy_sequence_utils/1.0.0/devteam/package_galaxy_utils_1_0/0643676ad5f7/lib/python
+Adding distribute 0.6.38 to easy-install.pth file
+Installing easy_install script to /home/galaxy/shed_tools/galaxy_sequence_utils/1.0.0/devteam/package_galaxy_utils_1_0/0643676ad5f7/bin
+Installing easy_install-2.7 script to /home/galaxy/shed_tools/galaxy_sequence_utils/1.0.0/devteam/package_galaxy_utils_1_0/0643676ad5f7/bin
+
+Installed /home/galaxy/shed_tools/galaxy_sequence_utils/1.0.0/devteam/package_galaxy_utils_1_0/0643676ad5f7/lib/python/distribute-0.6.38-py2.7.egg
+Processing dependencies for distribute==0.6.38
+Finished processing dependencies for distribute==0.6.38
+Processing galaxy_sequence_utils-1.0.0-py2.7.egg
+creating /home/galaxy/shed_tools/galaxy_sequence_utils/1.0.0/devteam/package_galaxy_utils_1_0/0643676ad5f7/lib/python/galaxy_sequence_utils-1.0.0-py2.7.egg
+Extracting galaxy_sequence_utils-1.0.0-py2.7.egg to /home/galaxy/shed_tools/galaxy_sequence_utils/1.0.0/devteam/package_galaxy_utils_1_0/0643676ad5f7/lib/python
+Adding galaxy-sequence-utils 1.0.0 to easy-install.pth file
+
+Installed /home/galaxy/shed_tools/galaxy_sequence_utils/1.0.0/devteam/package_galaxy_utils_1_0/0643676ad5f7/lib/python/galaxy_sequence_utils-1.0.0-py2.7.egg
+Processing dependencies for galaxy-sequence-utils==1.0.0
+Finished processing dependencies for galaxy-sequence-utils==1.0.0
+#############################################
+
+#############################################
+export PYTHONPATH=$PYTHONPATH:/home/galaxy/shed_tools/galaxy_sequence_utils/1.0.0/devteam/package_galaxy_utils_1_0/0643676ad5f7/lib/python && python setup.py install --home /home/galaxy/shed_tools/galaxy_sequence_utils/1.0.0/devteam/package_galaxy_utils_1_0/0643676ad5f7
+STDERR
+Downloading http://pypi.python.org/packages/source/d/distribute/distribute-0.6.38.tar.gz
+Extracting in /tmp/tmpuexnAz
+Now working in /tmp/tmpuexnAz/distribute-0.6.38
+Building a Distribute egg in /data/galaxy/database/tmp/tmp-toolshed-mtdoAQ9e4/galaxy_sequence_utils-1.0.0
+/data/galaxy/database/tmp/tmp-toolshed-mtdoAQ9e4/galaxy_sequence_utils-1.0.0/distribute-0.6.38-py2.7.egg
+#############################################

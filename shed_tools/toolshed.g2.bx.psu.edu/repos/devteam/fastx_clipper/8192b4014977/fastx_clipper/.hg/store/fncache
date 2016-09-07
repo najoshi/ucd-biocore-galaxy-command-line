@@ -1,0 +1,7 @@
+data/fastx_clipper.xml.i
+data/test-data/fastx_clipper1.fastq.i
+data/tool-data/fastx_clipper_sequences.txt.sample.i
+data/fastx_clipper_example.png.i
+data/tool_dependencies.xml.i
+data/test-data/fastx_clipper1a.out.i
+data/fastx_clipper_illustration.png.i

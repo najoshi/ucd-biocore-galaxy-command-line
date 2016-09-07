@@ -1,0 +1,36 @@
+#This is a sample file distributed with Galaxy that enables tools
+#to use a directory of Picard dict and associated files. You will need
+#to create these data files and then create a picard_index.loc file 
+#similar to this one (store it in this directory) that points to 
+#the directories in which those files are stored. The picard_index.loc 
+#file has this format (longer white space is the TAB character):
+#
+#<unique_build_id>		<dbkey>		<display_name>		<fasta_file_path>
+#
+#So, for example, if you had hg18 indexed and stored in 
+#/depot/data2/galaxy/srma/hg18/, 
+#then the srma_index.loc entry would look like this:
+#
+#hg18	hg18	hg18 Pretty		/depot/data2/galaxy/picard/hg18/hg18.fa
+#
+#and your /depot/data2/galaxy/srma/hg18/ directory
+#would contain the following three files:
+#hg18.fa
+#hg18.dict
+#hg18.fa.fai
+#
+#The dictionary file for each reference (ex. hg18.dict) must be 
+#created via Picard (http://picard.sourceforge.net). Note that
+#the dict file does not have the .fa extension although the
+#path list in the loc file does include it.
+#
+
+hg19	hg19	H. sapiens hg19	/data/refs/hg19/genome.fa
+rn4	rn4	R. norvegicus rn4	/data/refs/rn4/genome.fa
+sacCer3	sacCer3	S. cerevisiae sacCer3	/data/refs/sacCer3/genome.fa
+ce10	ce10	C. elegans ce10	/data/refs/ce10/genome.fa
+dm3	dm3	D. melanogaster dm3	/data/refs/dm3/genome.fa
+at10	at10	A. thaliana at10	/data/refs/at10/genome.fa
+mm10	mm10	M. musculus mm10	/data/refs/mm10/genome.fa
+dr7	dr7	D. rerio Zv9/danRer7	/data/refs/dr7/genome.fa
+hg38	hg38	H. sapiens hg38	/data/refs/hg38/genome.fa

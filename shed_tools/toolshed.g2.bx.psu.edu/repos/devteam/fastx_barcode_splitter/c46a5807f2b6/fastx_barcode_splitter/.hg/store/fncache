@@ -1,0 +1,7 @@
+data/barcode_splitter_output_example.png.i
+data/fastx_barcode_splitter_galaxy_wrapper.sh.i
+data/fastx_barcode_splitter.xml.i
+data/test-data/fastx_barcode_splitter1.fastq.i
+data/test-data/fastx_barcode_splitter1.txt.i
+data/tool_dependencies.xml.i
+data/test-data/fastx_barcode_splitter1.out.i

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<tool_dependency>
+    <package name="perl" version="5.18.1">
+        <repository changeset_revision="114b6af405fa" name="package_perl_5_18" owner="iuc" prior_installation_required="True" toolshed="https://toolshed.g2.bx.psu.edu" />
+    </package>
+    <package name="bowtie" version="0.12.7">
+        <repository changeset_revision="9f9f38617a98" name="package_bowtie_0_12_7" owner="devteam" toolshed="https://toolshed.g2.bx.psu.edu" />
+    </package>
+    <package name="vienna_rna" version="1.8.5">
+        <repository changeset_revision="6757330f89cd" name="package_vienna_rna_1_8" owner="iuc" toolshed="https://toolshed.g2.bx.psu.edu" />
+    </package>
+    <package name="pdf_api2" version="2.023">
+        <repository changeset_revision="b9b7fadfdb69" name="package_perl_pdf_api2_2_023" owner="iuc" toolshed="https://toolshed.g2.bx.psu.edu" />
+    </package>
+    <package name="randfold" version="2.0">
+        <repository changeset_revision="b34d2c942c79" name="package_randfold_2_0" owner="iuc" toolshed="https://toolshed.g2.bx.psu.edu" />
+    </package>
+    <package name="mirdeep2_quantifier" version="2.0">
+        <repository changeset_revision="40dc77f3730c" name="mirdeep2_quantifier" owner="rnateam" toolshed="https://toolshed.g2.bx.psu.edu" />
+    </package>
+    <package name="mirdeep2" version="2.0">
+        <install version="1.0">
+            <actions>
+                <action type="download_by_url">https://raw.githubusercontent.com/bgruening/download_store/master/miRDeep2/miRDeep2.tar.gz</action>
+                <action type="move_directory_files">
+                    <source_directory>.</source_directory>
+                    <destination_directory>$INSTALL_DIR</destination_directory>
+                </action>
+                <action type="set_environment">
+                    <environment_variable action="prepend_to" name="PATH">$INSTALL_DIR</environment_variable>
+                </action>
+            </actions>
+        </install>
+        <readme>
+
+MiRDeep2 is a software package for identification of novel and known miRNAs in deep sequencing data. Furthermore, it can be used for miRNA expression profiling across samples.
+
+        </readme>
+    </package>
+</tool_dependency>

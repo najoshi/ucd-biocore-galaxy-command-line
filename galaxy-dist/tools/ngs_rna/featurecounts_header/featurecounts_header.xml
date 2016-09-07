@@ -1,0 +1,58 @@
+<tool id="featurecounts_header" name="Add featureCounts header" version="">
+    <description>Add header to featureCounts output to use for edgeR</description>
+    <command><![CDATA[
+	echo -ne "#" > tmp.txt
+
+	#set $gnum=1
+	#for $g in $groups
+		&& echo -ne "\tG$gnum:$g.group" >> tmp.txt
+		#for $r in $g.reps
+			&& echo -ne "\tG$gnum:$g.group" >> tmp.txt
+		#end for
+		#set $gnum=$gnum+1
+	#end for
+
+	&& echo >> tmp.txt
+	&& echo -ne "#Feature" >> tmp.txt
+	#for $g in $groups
+		&& echo -ne "\t$g.sample_init" >> tmp.txt
+		#for $r in $g.reps
+			&& echo -ne "\t$r.rep" >> tmp.txt
+		#end for
+	#end for
+
+	&& echo >> tmp.txt
+	&& cat $fcdata | grep -v ^Geneid >> tmp.txt
+	&& mv tmp.txt $output
+		
+	]]>
+
+</command>
+
+<inputs>
+
+<param name="fcdata" type="data" format="tabular" label="Feature Counts output file" />
+
+        <repeat name="groups" title="Group">
+                <param name="group" title="Group name" type="text" label="Group name" help="Use only alphanumerics, dashes, underscores and periods. NO spaces.">
+                        <validator type="empty_field" />
+                        <validator type="regex" message="Use only alphanumerics, dashes, underscores and periods. NO spaces.">^[A-Za-z0-9\-_\.]+$</validator>
+                </param>
+                <param name="sample_init" title="Sample name" type="text" label="Sample name" help="Use only alphanumerics, dashes, underscores and periods. NO spaces.">
+                        <validator type="empty_field" />
+                        <validator type="regex" message="Use only alphanumerics, dashes, underscores and periods. NO spaces.">^[A-Za-z0-9\-_\.]+$</validator>
+                </param>
+                <repeat name="reps" title="Replicate">
+                    <param name="rep" title="Sample name" type="text" label="Sample name" help="Use only alphanumerics, dashes, underscores and periods. NO spaces.">
+                        <validator type="empty_field" />
+                        <validator type="regex" message="Use only alphanumerics, dashes, underscores and periods. NO spaces.">^[A-Za-z0-9\-_\.]+$</validator>
+                    </param>
+                </repeat>
+        </repeat>
+</inputs>
+
+    <outputs>
+        <data format="tabular" name="output" label="featureCounts with header on ${on_string}" />
+    </outputs>
+
+</tool>

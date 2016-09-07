@@ -1,0 +1,5 @@
+data/fastq_quality_filter.xml.i
+data/test-data/fastq_qual_filter1b.out.i
+data/test-data/fastq_qual_filter1a.out.i
+data/test-data/fastq_qual_filter1.fastq.i
+data/tool_dependencies.xml.i

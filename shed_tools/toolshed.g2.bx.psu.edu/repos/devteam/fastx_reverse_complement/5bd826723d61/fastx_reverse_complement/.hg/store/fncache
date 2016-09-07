@@ -1,0 +1,6 @@
+data/test-data/fastx_reverse_complement1.out.i
+data/fastx_reverse_complement.xml.i
+data/test-data/fastx_rev_comp2.fastq.i
+data/test-data/fastx_reverse_complement2.out.i
+data/test-data/fastx_rev_comp1.fasta.i
+data/tool_dependencies.xml.i

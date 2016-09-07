@@ -1,0 +1,10 @@
+data/cuffmerge_wrapper.py.i
+data/test-data/cuffcompare_in1.gtf.i
+data/test-data/cuffcompare_in3.gtf.i
+data/test-data/cuffmerge_out1.gtf.i
+data/cuffmerge_wrapper.xml.i
+data/test-data/cuffcompare_in2.gtf.i
+data/tool-data/fasta_indexes.loc.sample.i
+data/tool_dependencies.xml.i
+data/tool_data_table_conf.xml.sample.i
+data/tool-data/sam_fa_indices.loc.sample.i

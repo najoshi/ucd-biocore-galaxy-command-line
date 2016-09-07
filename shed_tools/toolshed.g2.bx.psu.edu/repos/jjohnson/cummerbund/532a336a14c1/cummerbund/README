@@ -1,0 +1,22 @@
+CummeRbund is an R package that is designed to aid and simplify the task of analyzing Cufflinks RNA-Seq output.
+( http://compbio.mit.edu/cummeRbund/ )  
+( http://www.bioconductor.org/packages/release/bioc/html/cummeRbund.html )
+
+
+Prerequisites for installing cummeRbund:
+The linux package: libxml2-dev
+In ubuntu:   sudo apt-get install libxml2-dev
+
+R package: ggplot2
+   install.packages("ggplot2",dependencies = TRUE)
+
+To install cummeRbund on your R server, follow the directions in:
+( http://www.bioconductor.org/packages/release/bioc/html/cummeRbund.html )
+   source("http://bioconductor.org/biocLite.R")
+   biocLite("cummeRbund")
+
+This galaxy tool package includes a replacement variation of the cuffdiff wrapper that will generate an SQLite data base output that can be used directly in cummeRbund.
+This cuffdiff builds the cummeRbund database from the cuffdiff output files in the working directory which includes the run.info output, 
+thus it can populate the replicates information.  
+
+

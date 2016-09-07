@@ -1,0 +1,15 @@
+data/rgFastQC.xml.i
+data/rgFastQC.py.i
+data/tool_dependencies.xml.i
+data/test-data/fastqc_data2.txt.i
+data/test-data/fastqc_customlimits.txt.i
+data/test-data/fastqc_report2.html.i
+data/test-data/fastqc_report.html.i
+data/test-data/1000gsample.fastq.d
+data/shed_upload.tar.gz.i
+data/test-data/fastqc_contaminants.txt.i
+data/test-data/1000gsample.fastq.i
+data/shed_upload.tar.gz.d
+data/test-data/fastqc_report2.html.d
+data/test-data/fastqc_report.html.d
+data/test-data/fastqc_data.txt.i

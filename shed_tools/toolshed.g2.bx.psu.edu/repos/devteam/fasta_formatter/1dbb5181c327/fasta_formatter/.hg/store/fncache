@@ -1,0 +1,5 @@
+data/tool_dependencies.xml.i
+data/test-data/fasta_formatter2.out.i
+data/test-data/fasta_formatter1.out.i
+data/fasta_formatter.xml.i
+data/test-data/fasta_formatter1.fasta.i

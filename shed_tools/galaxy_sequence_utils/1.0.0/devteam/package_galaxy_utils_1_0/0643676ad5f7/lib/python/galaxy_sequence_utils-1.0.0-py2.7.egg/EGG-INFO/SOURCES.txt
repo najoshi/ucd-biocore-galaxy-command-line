@@ -1,0 +1,13 @@
+setup.py
+lib/galaxy_sequence_utils.egg-info/PKG-INFO
+lib/galaxy_sequence_utils.egg-info/SOURCES.txt
+lib/galaxy_sequence_utils.egg-info/dependency_links.txt
+lib/galaxy_sequence_utils.egg-info/not-zip-safe
+lib/galaxy_sequence_utils.egg-info/top_level.txt
+lib/galaxy_utils/__init__.py
+lib/galaxy_utils/sequence/__init__.py
+lib/galaxy_utils/sequence/fasta.py
+lib/galaxy_utils/sequence/fastq.py
+lib/galaxy_utils/sequence/sequence.py
+lib/galaxy_utils/sequence/transform.py
+lib/galaxy_utils/sequence/vcf.py

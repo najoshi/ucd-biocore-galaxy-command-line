@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<tables>
+<!--  Location of all GFF/GTF files  -->
+<table comment_char="#" name="gene_sets">
+        <columns>name, dbkey, value, provider, reference</columns>
+        <file path="/home/galaxy/galaxy-dist/tool-data/toolshed.g2.bx.psu.edu/repos/yhoogstrate/featurecounts/e04fbcc4e91a/gene_sets.loc" />
+    <tool_shed_repository><tool_shed>toolshed.g2.bx.psu.edu</tool_shed><repository_name>featurecounts</repository_name><repository_owner>yhoogstrate</repository_owner><installed_changeset_revision>e04fbcc4e91a</installed_changeset_revision></tool_shed_repository></table>
+</tables>

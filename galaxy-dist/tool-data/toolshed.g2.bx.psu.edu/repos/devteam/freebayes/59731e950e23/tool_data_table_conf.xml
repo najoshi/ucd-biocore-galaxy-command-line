@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<tables>
+<!--  Location of SAMTools indexes and other files  -->
+<table comment_char="#" name="sam_fa_indexes">
+        <columns>line_type, value, path</columns>
+        <file path="/home/galaxy/galaxy-dist/tool-data/toolshed.g2.bx.psu.edu/repos/devteam/freebayes/59731e950e23/sam_fa_indices.loc" />
+    <tool_shed_repository><tool_shed>toolshed.g2.bx.psu.edu</tool_shed><repository_name>freebayes</repository_name><repository_owner>devteam</repository_owner><installed_changeset_revision>59731e950e23</installed_changeset_revision></tool_shed_repository></table>
+</tables>

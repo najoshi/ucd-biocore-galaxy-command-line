@@ -1,0 +1,7 @@
+data/test-data/fastq_to_tabular_out_1.tabular.i
+data/test-data/sanger_full_range_as_cssanger.fastqcssanger.i
+data/test-data/sanger_full_range_original_sanger.fastqsanger.i
+data/tabular_to_fastq.xml.i
+data/test-data/fastq_to_tabular_out_2.tabular.i
+data/tool_dependencies.xml.i
+data/tabular_to_fastq.py.i

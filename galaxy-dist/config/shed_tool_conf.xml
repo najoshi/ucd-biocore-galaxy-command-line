@@ -1,0 +1,2304 @@
+<?xml version="1.0"?>
+<toolbox tool_path="../shed_tools">
+<section id="NGS_QC" name="NGS: QC and manipulation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/nikhil-joshi/sickle/c70137414dcd/sickle/sickle.xml" guid="toolshed.g2.bx.psu.edu/repos/nikhil-joshi/sickle/sickle/1.33">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sickle</repository_name>
+        <repository_owner>nikhil-joshi</repository_owner>
+        <installed_changeset_revision>c70137414dcd</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/nikhil-joshi/sickle/sickle/1.33</id>
+        <version>1.33</version>
+    </tool>
+</section>
+
+<section id="solexa_tools" name="NGS: Mapping" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/c1ec08cb34f9/bowtie2/bowtie2_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/0.3">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bowtie2</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>c1ec08cb34f9</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/0.3</id>
+        <version>0.3</version>
+    </tool>
+</section>
+
+<section id="ngs-rna-tools" name="NGS: RNA Analysis" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/cufflinks/5346d5eea8b1/cufflinks/cufflinks_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/cufflinks/cufflinks/2.2.1.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>cufflinks</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>5346d5eea8b1</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/cufflinks/cufflinks/2.2.1.0</id>
+        <version>2.2.1.0</version>
+    </tool>
+</section>
+
+<section id="ngs-rna-tools" name="NGS: RNA Analysis" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/cuffnorm/a26af05ac218/cuffnorm/cuffnorm_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/cuffnorm/cuffnorm/2.2.1.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>cuffnorm</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>a26af05ac218</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/cuffnorm/cuffnorm/2.2.1.0</id>
+        <version>2.2.1.0</version>
+    </tool>
+</section>
+
+<section id="ngs-rna-tools" name="NGS: RNA Analysis" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/cuffquant/5d8b9dcaf17d/cuffquant/cuffquant_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/cuffquant/cuffquant/2.2.1.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>cuffquant</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>5d8b9dcaf17d</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/cuffquant/cuffquant/2.2.1.0</id>
+        <version>2.2.1.0</version>
+    </tool>
+</section>
+
+<section id="solexa_tools" name="NGS: Mapping" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/bwa_wrappers/b4427dbb6ced/bwa_wrappers/bwa_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/bwa_wrappers/bwa_wrapper/1.2.3">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bwa_wrappers</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>b4427dbb6ced</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/bwa_wrappers/bwa_wrapper/1.2.3</id>
+        <version>1.2.3</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/bwa_wrappers/b4427dbb6ced/bwa_wrappers/bwa_color_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/bwa_wrappers/bwa_color_wrapper/1.0.2">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bwa_wrappers</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>b4427dbb6ced</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/bwa_wrappers/bwa_color_wrapper/1.0.2</id>
+        <version>1.0.2</version>
+    </tool>
+</section>
+
+<section id="solexa_tools" name="NGS: Mapping" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/crs4/bwa_mem/ebb02ba5987c/bwa_mem/bwa_mem.xml" guid="toolshed.g2.bx.psu.edu/repos/crs4/bwa_mem/bwa_mem/0.8.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bwa_mem</repository_name>
+        <repository_owner>crs4</repository_owner>
+        <installed_changeset_revision>ebb02ba5987c</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/crs4/bwa_mem/bwa_mem/0.8.0</id>
+        <version>0.8.0</version>
+    </tool>
+</section>
+
+<section id="NGS_QC" name="NGS: QC and manipulation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/fastqc/0b201de108b9/fastqc/rgFastQC.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.63">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>fastqc</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>0b201de108b9</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc/0.63</id>
+        <version>0.63</version>
+    </tool>
+</section>
+
+<section id="ngs-rna-tools" name="NGS: RNA Analysis" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/amawla/edger/91ca33096034/edger/edgeR.xml" guid="toolshed.g2.bx.psu.edu/repos/amawla/edger/edgeR/0.0.3">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>edger</repository_name>
+        <repository_owner>amawla</repository_owner>
+        <installed_changeset_revision>91ca33096034</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/amawla/edger/edgeR/0.0.3</id>
+        <version>0.0.3</version>
+    </tool>
+</section>
+
+<section id="ngs:_variant_analysis" name="NGS: Variant Analysis" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/freebayes/59731e950e23/freebayes/freebayes.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/freebayes/freebayes/freebayes-0.9.14">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>freebayes</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>59731e950e23</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/freebayes/freebayes/freebayes-0.9.14</id>
+        <version>freebayes-0.9.14</version>
+    </tool>
+</section>
+
+<section id="motifs" name="Motif Tools" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/nikhil-joshi/ceas/012afa77c724/ceas/ceas.xml" guid="toolshed.g2.bx.psu.edu/repos/nikhil-joshi/ceas/ceas/1.0.2">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>ceas</repository_name>
+        <repository_owner>nikhil-joshi</repository_owner>
+        <installed_changeset_revision>012afa77c724</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/nikhil-joshi/ceas/ceas/1.0.2</id>
+        <version>1.0.2</version>
+    </tool>
+</section>
+
+<section id="textutil" name="Text Manipulation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/column_maker/08a01b2ce4cd/column_maker/column_maker.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/1.1.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>column_maker</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>08a01b2ce4cd</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/column_maker/Add_a_column1/1.1.0</id>
+        <version>1.1.0</version>
+    </tool>
+</section>
+
+<section id="picard_tools" name="Picard tools" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_ReplaceSamHeader.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_ReplaceSamHeader/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_ReplaceSamHeader/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_AddCommentsToBam.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_AddCommentsToBam/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_AddCommentsToBam/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_SamToFastq.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_SamToFastq/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_SamToFastq/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_DownsampleSam.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_DownsampleSam/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_DownsampleSam/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_ValidateSamFile.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_ValidateSamFile/1.122.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_ValidateSamFile/1.122.0</id>
+        <version>1.122.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_MarkDuplicates.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_ReorderSam.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_ReorderSam/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_ReorderSam/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_RevertSam.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_RevertSam/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_RevertSam/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_EstimateLibraryComplexity.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_EstimateLibraryComplexity/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_EstimateLibraryComplexity/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_AddOrReplaceReadGroups.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_AddOrReplaceReadGroups/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_AddOrReplaceReadGroups/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_CollectRnaSeqMetrics.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectRnaSeqMetrics/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectRnaSeqMetrics/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_CleanSam.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CleanSam/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CleanSam/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_CollectInsertSizeMetrics.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectInsertSizeMetrics/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectInsertSizeMetrics/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_MeanQualityByCycle.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MeanQualityByCycle/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MeanQualityByCycle/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_FilterSamReads.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_FilterSamReads/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_FilterSamReads/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_CollectBaseDistributionByCycle.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectBaseDistributionByCycle/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectBaseDistributionByCycle/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_CollectWgsMetrics.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectWgsMetrics/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectWgsMetrics/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_CollectAlignmentSummaryMetrics.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CASM/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CASM/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_CollectGcBiasMetrics.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectGcBiasMetrics/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectGcBiasMetrics/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_NormalizeFasta.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_FixMateInformation.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_FixMateInformation/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_FixMateInformation/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_MergeSamFiles.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MergeSamFiles/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MergeSamFiles/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_MergeBamAlignment.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MergeBamAlignment/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MergeBamAlignment/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_RevertOriginalBaseQualitiesAndAddMateCigar.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_RevertOriginalBaseQualitiesAndAddMateCigar/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_RevertOriginalBaseQualitiesAndAddMateCigar/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_SortSam.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_SortSam/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_SortSam/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_MarkDuplicatesWithMateCigar.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicatesWithMateCigar/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicatesWithMateCigar/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_BedToIntervalList.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_BedToIntervalList/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_BedToIntervalList/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_QualityScoreDistribution.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_QualityScoreDistribution/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_QualityScoreDistribution/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/4ff1e04010e6/picard/picard_FastqToSam.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_FastqToSam/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>4ff1e04010e6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_FastqToSam/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+</section>
+
+<section id="ngs-rna-tools" name="NGS: RNA Analysis" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/nikhil-joshi/sam2counts_edger/a2ef5d59bd6e/sam2counts_edger/sam2counts_galaxy_edger.xml" guid="toolshed.g2.bx.psu.edu/repos/nikhil-joshi/sam2counts_edger/sam2counts_edger/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sam2counts_edger</repository_name>
+        <repository_owner>nikhil-joshi</repository_owner>
+        <installed_changeset_revision>a2ef5d59bd6e</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/nikhil-joshi/sam2counts_edger/sam2counts_edger/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+</section>
+
+<section id="ngs-rna-tools" name="NGS: RNA Analysis" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/cuffmerge/424d49834830/cuffmerge/cuffmerge_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/cuffmerge/cuffmerge/0.0.6">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>cuffmerge</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>424d49834830</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/cuffmerge/cuffmerge/0.0.6</id>
+        <version>0.0.6</version>
+    </tool>
+</section>
+
+<section id="ngs-rna-tools" name="NGS: RNA Analysis" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/cuffmerge/b6e3849293b1/cuffmerge/cuffmerge_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/cuffmerge/cuffmerge/2.2.1.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>cuffmerge</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>b6e3849293b1</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/cuffmerge/cuffmerge/2.2.1.0</id>
+        <version>2.2.1.0</version>
+    </tool>
+</section>
+
+<section id="ngs-rna-tools" name="NGS: RNA Analysis" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/cuffcompare/8b22e9adae34/cuffcompare/cuffcompare_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/cuffcompare/cuffcompare/0.0.6">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>cuffcompare</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>8b22e9adae34</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/cuffcompare/cuffcompare/0.0.6</id>
+        <version>0.0.6</version>
+    </tool>
+</section>
+
+<section id="ngs-rna-tools" name="NGS: RNA Analysis" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/cuffcompare/8e534225baa9/cuffcompare/cuffcompare_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/cuffcompare/cuffcompare/2.2.1.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>cuffcompare</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>8e534225baa9</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/cuffcompare/cuffcompare/2.2.1.0</id>
+        <version>2.2.1.0</version>
+    </tool>
+</section>
+
+<section id="motifs" name="Peak Calling and Motif Tools" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/iuc/macs2/859c982b1f7f/macs2/macs2_predictd.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_predictd/2.1.0.20140616.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>macs2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>859c982b1f7f</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_predictd/2.1.0.20140616.0</id>
+        <version>2.1.0.20140616.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/macs2/859c982b1f7f/macs2/macs2_filterdup.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_filterdup/2.1.0.20140616.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>macs2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>859c982b1f7f</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_filterdup/2.1.0.20140616.0</id>
+        <version>2.1.0.20140616.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/macs2/859c982b1f7f/macs2/macs2_callpeak.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.1.0.20140616.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>macs2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>859c982b1f7f</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.1.0.20140616.0</id>
+        <version>2.1.0.20140616.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/macs2/859c982b1f7f/macs2/macs2_bdgcmp.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_bdgcmp/2.1.0.20140616.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>macs2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>859c982b1f7f</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_bdgcmp/2.1.0.20140616.0</id>
+        <version>2.1.0.20140616.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/macs2/859c982b1f7f/macs2/macs2_randsample.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_randsample/2.1.0.20140616.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>macs2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>859c982b1f7f</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_randsample/2.1.0.20140616.0</id>
+        <version>2.1.0.20140616.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/macs2/859c982b1f7f/macs2/macs2_bdgpeakcall.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_bdgpeakcall/2.1.0.20140616.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>macs2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>859c982b1f7f</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_bdgpeakcall/2.1.0.20140616.0</id>
+        <version>2.1.0.20140616.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/macs2/859c982b1f7f/macs2/macs2_refinepeak.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_refinepeak/2.1.0.20140616.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>macs2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>859c982b1f7f</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_refinepeak/2.1.0.20140616.0</id>
+        <version>2.1.0.20140616.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/macs2/859c982b1f7f/macs2/macs2_bdgdiff.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_bdgdiff/2.1.0.20140616.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>macs2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>859c982b1f7f</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_bdgdiff/2.1.0.20140616.0</id>
+        <version>2.1.0.20140616.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/macs2/859c982b1f7f/macs2/macs2_bdgbroadcall.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_bdgbroadcall/2.1.0.20140616.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>macs2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>859c982b1f7f</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_bdgbroadcall/2.1.0.20140616.0</id>
+        <version>2.1.0.20140616.0</version>
+    </tool>
+</section>
+
+<section id="ngs-rna-tools" name="NGS: RNA Analysis" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/jjohnson/cummerbund/532a336a14c1/cummerbund/cummerbund_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/jjohnson/cummerbund/cummerbund/0.0.7">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>cummerbund</repository_name>
+        <repository_owner>jjohnson</repository_owner>
+        <installed_changeset_revision>532a336a14c1</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/jjohnson/cummerbund/cummerbund/0.0.7</id>
+        <version>0.0.7</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/jjohnson/cummerbund/532a336a14c1/cummerbund/cuffdiff_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/jjohnson/cummerbund/cuffdiff_cummerbund/0.0.7">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>cummerbund</repository_name>
+        <repository_owner>jjohnson</repository_owner>
+        <installed_changeset_revision>532a336a14c1</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/jjohnson/cummerbund/cuffdiff_cummerbund/0.0.7</id>
+        <version>0.0.7</version>
+    </tool>
+</section>
+
+<section id="NGS_QC" name="NGS: QC and manipulation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/nikhil-joshi/scythe/c7ea7b299f01/scythe/scythe.xml" guid="toolshed.g2.bx.psu.edu/repos/nikhil-joshi/scythe/scythe/0.991">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>scythe</repository_name>
+        <repository_owner>nikhil-joshi</repository_owner>
+        <installed_changeset_revision>c7ea7b299f01</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/nikhil-joshi/scythe/scythe/0.991</id>
+        <version>0.991</version>
+    </tool>
+</section>
+
+<section id="NGS_QC" name="NGS: QC and manipulation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/fastq_quality_boxplot/f95284aa2946/fastq_quality_boxplot/fastq_quality_boxplot.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/fastq_quality_boxplot/cshl_fastq_quality_boxplot/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>fastq_quality_boxplot</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>f95284aa2946</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/fastq_quality_boxplot/cshl_fastq_quality_boxplot/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+</section>
+
+<section id="NGS_QC" name="NGS: QC and manipulation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/fastq_to_fasta/04614cf6ed39/fastq_to_fasta/fastq_to_fasta.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/fastq_to_fasta/cshl_fastq_to_fasta/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>fastq_to_fasta</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>04614cf6ed39</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/fastq_to_fasta/cshl_fastq_to_fasta/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+</section>
+
+<section id="NGS_QC" name="NGS: QC and manipulation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/fastx_trimmer/d77c9c6ecf68/fastx_trimmer/fastx_trimmer.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/fastx_trimmer/cshl_fastx_trimmer/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>fastx_trimmer</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>d77c9c6ecf68</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/fastx_trimmer/cshl_fastx_trimmer/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+</section>
+
+<section id="NGS_QC" name="NGS: QC and manipulation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/fastx_clipper/8192b4014977/fastx_clipper/fastx_clipper.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/fastx_clipper/cshl_fastx_clipper/1.0.1">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>fastx_clipper</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>8192b4014977</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/fastx_clipper/cshl_fastx_clipper/1.0.1</id>
+        <version>1.0.1</version>
+    </tool>
+</section>
+
+<section id="NGS_QC" name="NGS: QC and manipulation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/fasta_nucleotide_changer/2f868bfbe9de/fasta_nucleotide_changer/fasta_nucleotide_changer.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/fasta_nucleotide_changer/cshl_fasta_nucleotides_changer/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>fasta_nucleotide_changer</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>2f868bfbe9de</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/fasta_nucleotide_changer/cshl_fasta_nucleotides_changer/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+</section>
+
+<section id="NGS_QC" name="NGS: QC and manipulation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/fastq_quality_converter/b87c74b61d81/fastq_quality_converter/fastq_quality_converter.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/fastq_quality_converter/cshl_fastq_quality_converter/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>fastq_quality_converter</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>b87c74b61d81</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/fastq_quality_converter/cshl_fastq_quality_converter/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+</section>
+
+<section id="NGS_QC" name="NGS: QC and manipulation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/fasta_formatter/1dbb5181c327/fasta_formatter/fasta_formatter.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/fasta_formatter/cshl_fasta_formatter/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>fasta_formatter</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>1dbb5181c327</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/fasta_formatter/cshl_fasta_formatter/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+</section>
+
+<section id="NGS_QC" name="NGS: QC and manipulation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/fastx_renamer/d7bce63e6e09/fastx_renamer/fastx_renamer.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/fastx_renamer/cshl_fastx_renamer/0.0.11">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>fastx_renamer</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>d7bce63e6e09</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/fastx_renamer/cshl_fastx_renamer/0.0.11</id>
+        <version>0.0.11</version>
+    </tool>
+</section>
+
+<section id="NGS_QC" name="NGS: QC and manipulation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/fastx_nucleotides_distribution/63d6e2daad48/fastx_nucleotides_distribution/fastx_nucleotides_distribution.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/fastx_nucleotides_distribution/cshl_fastx_nucleotides_distribution/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>fastx_nucleotides_distribution</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>63d6e2daad48</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/fastx_nucleotides_distribution/cshl_fastx_nucleotides_distribution/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+</section>
+
+<section id="NGS_QC" name="NGS: QC and manipulation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/fastq_quality_filter/57adb07cccfc/fastq_quality_filter/fastq_quality_filter.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/fastq_quality_filter/cshl_fastq_quality_filter/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>fastq_quality_filter</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>57adb07cccfc</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/fastq_quality_filter/cshl_fastq_quality_filter/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+</section>
+
+<section id="NGS_QC" name="NGS: QC and manipulation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/fastx_quality_statistics/c2af34024061/fastx_quality_statistics/fastx_quality_statistics.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/fastx_quality_statistics/cshl_fastx_quality_statistics/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>fastx_quality_statistics</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>c2af34024061</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/fastx_quality_statistics/cshl_fastx_quality_statistics/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+</section>
+
+<section id="NGS_QC" name="NGS: QC and manipulation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/fastx_collapser/13c2d9e8c6d5/fastx_collapser/fastx_collapser.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/fastx_collapser/cshl_fastx_collapser/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>fastx_collapser</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>13c2d9e8c6d5</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/fastx_collapser/cshl_fastx_collapser/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+</section>
+
+<section id="NGS_QC" name="NGS: QC and manipulation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/fastx_reverse_complement/5bd826723d61/fastx_reverse_complement/fastx_reverse_complement.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/fastx_reverse_complement/cshl_fastx_reverse_complement/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>fastx_reverse_complement</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>5bd826723d61</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/fastx_reverse_complement/cshl_fastx_reverse_complement/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+</section>
+
+<section id="NGS_QC" name="NGS: QC and manipulation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/fastx_barcode_splitter/c46a5807f2b6/fastx_barcode_splitter/fastx_barcode_splitter.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/fastx_barcode_splitter/cshl_fastx_barcode_splitter/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>fastx_barcode_splitter</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>c46a5807f2b6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/fastx_barcode_splitter/cshl_fastx_barcode_splitter/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+</section>
+
+<section id="NGS_QC" name="NGS: QC and manipulation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/fastx_artifacts_filter/c8808979ba33/fastx_artifacts_filter/fastx_artifacts_filter.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/fastx_artifacts_filter/cshl_fastx_artifacts_filter/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>fastx_artifacts_filter</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>c8808979ba33</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/fastx_artifacts_filter/cshl_fastx_artifacts_filter/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+</section>
+
+<section id="NGS_QC" name="NGS: QC and manipulation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/fasta_clipping_histogram/f2ab5b44870d/fasta_clipping_histogram/fasta_clipping_histogram.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/fasta_clipping_histogram/cshl_fasta_clipping_histogram/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>fasta_clipping_histogram</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>f2ab5b44870d</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/fasta_clipping_histogram/cshl_fasta_clipping_histogram/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+</section>
+
+<section id="ngs-rna-tools" name="NGS: RNA Analysis" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/jjohnson/gffread/d0d6fc2004be/gffread/gffread.xml" guid="toolshed.g2.bx.psu.edu/repos/jjohnson/gffread/gffread/2.2.1.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>gffread</repository_name>
+        <repository_owner>jjohnson</repository_owner>
+        <installed_changeset_revision>d0d6fc2004be</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/jjohnson/gffread/gffread/2.2.1.0</id>
+        <version>2.2.1.0</version>
+    </tool>
+</section>
+
+<section id="picard_tools" name="Picard tools" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_ReplaceSamHeader.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_ReplaceSamHeader/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_ReplaceSamHeader/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_AddCommentsToBam.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_AddCommentsToBam/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_AddCommentsToBam/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_SamToFastq.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_SamToFastq/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_SamToFastq/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_DownsampleSam.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_DownsampleSam/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_DownsampleSam/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_MarkDuplicates.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_ReorderSam.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_ReorderSam/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_ReorderSam/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_RevertSam.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_RevertSam/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_RevertSam/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_EstimateLibraryComplexity.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_EstimateLibraryComplexity/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_EstimateLibraryComplexity/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_AddOrReplaceReadGroups.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_AddOrReplaceReadGroups/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_AddOrReplaceReadGroups/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_CollectRnaSeqMetrics.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectRnaSeqMetrics/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectRnaSeqMetrics/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_CleanSam.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CleanSam/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CleanSam/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_CollectInsertSizeMetrics.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectInsertSizeMetrics/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectInsertSizeMetrics/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_MeanQualityByCycle.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MeanQualityByCycle/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MeanQualityByCycle/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_FilterSamReads.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_FilterSamReads/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_FilterSamReads/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_ValidateSamFile.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_ValidateSamFile/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_ValidateSamFile/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_CollectBaseDistributionByCycle.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectBaseDistributionByCycle/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectBaseDistributionByCycle/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_CollectWgsMetrics.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectWgsMetrics/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectWgsMetrics/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_CollectAlignmentSummaryMetrics.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CASM/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CASM/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_CollectGcBiasMetrics.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectGcBiasMetrics/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectGcBiasMetrics/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_NormalizeFasta.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_FixMateInformation.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_FixMateInformation/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_FixMateInformation/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_MergeSamFiles.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MergeSamFiles/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MergeSamFiles/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_MergeBamAlignment.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MergeBamAlignment/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MergeBamAlignment/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_RevertOriginalBaseQualitiesAndAddMateCigar.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_RevertOriginalBaseQualitiesAndAddMateCigar/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_RevertOriginalBaseQualitiesAndAddMateCigar/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_SortSam.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_SortSam/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_SortSam/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_MarkDuplicatesWithMateCigar.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicatesWithMateCigar/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicatesWithMateCigar/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_BedToIntervalList.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_BedToIntervalList/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_BedToIntervalList/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_QualityScoreDistribution.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_QualityScoreDistribution/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_QualityScoreDistribution/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/379fdf4c41ac/picard/picard_FastqToSam.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_FastqToSam/1.126.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>379fdf4c41ac</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_FastqToSam/1.126.0</id>
+        <version>1.126.0</version>
+    </tool>
+</section>
+
+<section id="ngs:_variant_analysis" name="NGS: Variant Analysis" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/84584664264c/gatk2/unified_genotyper.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_unified_genotyper/2.8.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>gatk2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>84584664264c</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_unified_genotyper/2.8.0</id>
+        <version>2.8.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/84584664264c/gatk2/print_reads.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_print_reads/2.8.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>gatk2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>84584664264c</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_print_reads/2.8.0</id>
+        <version>2.8.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/84584664264c/gatk2/indel_realigner.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_indel_realigner/2.8.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>gatk2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>84584664264c</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_indel_realigner/2.8.0</id>
+        <version>2.8.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/84584664264c/gatk2/variant_eval.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_variant_eval/2.8.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>gatk2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>84584664264c</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_variant_eval/2.8.0</id>
+        <version>2.8.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/84584664264c/gatk2/variant_filtration.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_variant_filtration/2.8.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>gatk2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>84584664264c</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_variant_filtration/2.8.0</id>
+        <version>2.8.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/84584664264c/gatk2/variant_validate.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_variant_validate/2.8.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>gatk2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>84584664264c</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_variant_validate/2.8.0</id>
+        <version>2.8.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/84584664264c/gatk2/variant_select.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_variant_select/2.8.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>gatk2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>84584664264c</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_variant_select/2.8.0</id>
+        <version>2.8.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/84584664264c/gatk2/realigner_target_creator.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_realigner_target_creator/2.8.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>gatk2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>84584664264c</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_realigner_target_creator/2.8.0</id>
+        <version>2.8.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/84584664264c/gatk2/depth_of_coverage.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_depth_of_coverage/2.8.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>gatk2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>84584664264c</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_depth_of_coverage/2.8.0</id>
+        <version>2.8.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/84584664264c/gatk2/variant_apply_recalibration.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_variant_apply_recalibration/2.8.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>gatk2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>84584664264c</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_variant_apply_recalibration/2.8.0</id>
+        <version>2.8.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/84584664264c/gatk2/haplotype_caller.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_haplotype_caller/2.8.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>gatk2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>84584664264c</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_haplotype_caller/2.8.0</id>
+        <version>2.8.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/84584664264c/gatk2/base_recalibrator.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_base_recalibrator/2.8.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>gatk2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>84584664264c</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_base_recalibrator/2.8.0</id>
+        <version>2.8.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/84584664264c/gatk2/variant_recalibrator.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_variant_recalibrator/2.8.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>gatk2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>84584664264c</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_variant_recalibrator/2.8.0</id>
+        <version>2.8.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/84584664264c/gatk2/variant_combine.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_variant_combine/2.8.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>gatk2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>84584664264c</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_variant_combine/2.8.0</id>
+        <version>2.8.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/84584664264c/gatk2/reduce_reads.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_reduce_reads/2.8.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>gatk2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>84584664264c</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_reduce_reads/2.8.0</id>
+        <version>2.8.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/84584664264c/gatk2/variant_annotator.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_variant_annotator/2.8.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>gatk2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>84584664264c</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_variant_annotator/2.8.0</id>
+        <version>2.8.0</version>
+    </tool>
+</section>
+
+<section id="NGS_QC" name="NGS: QC and manipulation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/fastq_paired_end_interlacer/b89bdf6acb6c/fastq_paired_end_interlacer/fastq_paired_end_interlacer.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/fastq_paired_end_interlacer/fastq_paired_end_interlacer/1.1">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>fastq_paired_end_interlacer</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>b89bdf6acb6c</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/fastq_paired_end_interlacer/fastq_paired_end_interlacer/1.1</id>
+        <version>1.1</version>
+    </tool>
+</section>
+
+<section id="plots" name="Graph/Display Data" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/guerler/charts/e67f691f08e4/charts/charts.xml" guid="toolshed.g2.bx.psu.edu/repos/guerler/charts/charts/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>charts</repository_name>
+        <repository_owner>guerler</repository_owner>
+        <installed_changeset_revision>e67f691f08e4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/guerler/charts/charts/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+</section>
+
+<section id="plots" name="Graph/Display Data" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/histogram/6ff47de059a0/histogram/histogram2.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/histogram/histogram_rpy/1.0.3">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>histogram</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>6ff47de059a0</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/histogram/histogram_rpy/1.0.3</id>
+        <version>1.0.3</version>
+    </tool>
+</section>
+
+<section id="NGS_QC" name="NGS: QC and manipulation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/fastq_filter/30d9ece6c752/fastq_filter/fastq_filter.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/fastq_filter/fastq_filter/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>fastq_filter</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>30d9ece6c752</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/fastq_filter/fastq_filter/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+</section>
+
+<section id="NGS_QC" name="NGS: QC and manipulation" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/fastq_groomer/1298445c852b/fastq_groomer/fastq_groomer.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/fastq_groomer/fastq_groomer/1.0.4">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>fastq_groomer</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>1298445c852b</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/fastq_groomer/fastq_groomer/1.0.4</id>
+        <version>1.0.4</version>
+    </tool>
+</section>
+
+<section id="convert" name="Convert Formats" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/brad-chapman/bam_to_bigwig/52bcd04ee0d6/bam_to_bigwig/bam_to_bigwig/bam_to_bigwig.xml" guid="toolshed.g2.bx.psu.edu/repos/brad-chapman/bam_to_bigwig/bam_to_bigwig/0.1.1">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bam_to_bigwig</repository_name>
+        <repository_owner>brad-chapman</repository_owner>
+        <installed_changeset_revision>52bcd04ee0d6</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/brad-chapman/bam_to_bigwig/bam_to_bigwig/0.1.1</id>
+        <version>0.1.1</version>
+    </tool>
+</section>
+
+<section id="convert" name="Convert Formats" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/fastq_to_tabular/bc9269529e88/fastq_to_tabular/fastq_to_tabular.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/fastq_to_tabular/fastq_to_tabular/1.1.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>fastq_to_tabular</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>bc9269529e88</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/fastq_to_tabular/fastq_to_tabular/1.1.0</id>
+        <version>1.1.0</version>
+    </tool>
+</section>
+
+<section id="convert" name="Convert Formats" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fastq/b334cd1095ea/tabular_to_fastq/tabular_to_fastq.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fastq/tabular_to_fastq/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>tabular_to_fastq</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>b334cd1095ea</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/tabular_to_fastq/tabular_to_fastq/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+</section>
+
+<section id="fetchSeq" name="Fetch Sequences" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/matt-shirley/ncbi_sra_toolkit/fdc981664a43/ncbi_sra_toolkit/fastq_dump.xml" guid="toolshed.g2.bx.psu.edu/repos/matt-shirley/ncbi_sra_toolkit/fastq_dump/1.1.2">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>ncbi_sra_toolkit</repository_name>
+        <repository_owner>matt-shirley</repository_owner>
+        <installed_changeset_revision>fdc981664a43</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/matt-shirley/ncbi_sra_toolkit/fastq_dump/1.1.2</id>
+        <version>1.1.2</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/matt-shirley/ncbi_sra_toolkit/fdc981664a43/ncbi_sra_toolkit/sra_pileup.xml" guid="toolshed.g2.bx.psu.edu/repos/matt-shirley/ncbi_sra_toolkit/sra_pileup/1.1.1">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>ncbi_sra_toolkit</repository_name>
+        <repository_owner>matt-shirley</repository_owner>
+        <installed_changeset_revision>fdc981664a43</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/matt-shirley/ncbi_sra_toolkit/sra_pileup/1.1.1</id>
+        <version>1.1.1</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/matt-shirley/ncbi_sra_toolkit/fdc981664a43/ncbi_sra_toolkit/bam_dump.xml" guid="toolshed.g2.bx.psu.edu/repos/matt-shirley/ncbi_sra_toolkit/bam_dump/1.1.2">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>ncbi_sra_toolkit</repository_name>
+        <repository_owner>matt-shirley</repository_owner>
+        <installed_changeset_revision>fdc981664a43</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/matt-shirley/ncbi_sra_toolkit/bam_dump/1.1.2</id>
+        <version>1.1.2</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/matt-shirley/ncbi_sra_toolkit/fdc981664a43/ncbi_sra_toolkit/sam_dump.xml" guid="toolshed.g2.bx.psu.edu/repos/matt-shirley/ncbi_sra_toolkit/sam_dump/1.1.2">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>ncbi_sra_toolkit</repository_name>
+        <repository_owner>matt-shirley</repository_owner>
+        <installed_changeset_revision>fdc981664a43</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/matt-shirley/ncbi_sra_toolkit/sam_dump/1.1.2</id>
+        <version>1.1.2</version>
+    </tool>
+</section>
+
+<section id="bedtools" name="Bedtools" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/slopBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_slopbed/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_slopbed/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/nucBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_nucbed/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_nucbed/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/subtractBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_subtractbed/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_subtractbed/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/bedpeToBam.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bedpetobam/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bedpetobam/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/reldist.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_reldistbed/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_reldistbed/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/fisherBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_fisher/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_fisher/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/complementBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_complementbed/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_complementbed/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/jaccardBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_jaccard/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_jaccard/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/makeWindowsBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_makewindowsbed/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_makewindowsbed/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/unionBedGraphs.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_unionbedgraph/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_unionbedgraph/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/groupbyBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_groupbybed/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_groupbybed/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/maskFastaBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_maskfastabed/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_maskfastabed/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/genomeCoverageBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_genomecoveragebed/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_genomecoveragebed/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/sortBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_sortbed/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_sortbed/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/multiCov.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_multicovtbed/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_multicovtbed/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/bamToBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bamtobed/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bamtobed/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/bed12ToBed6.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bed12tobed6/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bed12tobed6/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/multiIntersectBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_multiintersectbed/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_multiintersectbed/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/shuffleBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_shufflebed/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_shufflebed/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/bedToBam.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bedtobam/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bedtobam/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/annotateBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_annotatebed/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_annotatebed/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/mergeBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_mergebed/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_mergebed/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/mapBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_map/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_map/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/windowBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_windowbed/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_windowbed/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/linksBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_links/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_links/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/coverageBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_coveragebed/2.22.1">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_coveragebed/2.22.1</id>
+        <version>2.22.1</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/intersectBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/randomBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_randombed/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_randombed/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/expandBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_expandbed/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_expandbed/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/tagBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_tagbed/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_tagbed/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/getfastaBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_getfastabed/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_getfastabed/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/overlapBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_overlapbed/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_overlapbed/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/closestBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_closestbed/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_closestbed/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/flankBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_flankbed/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_flankbed/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/82aac94b06c3/bedtools/clusterBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_clusterbed/2.22.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>82aac94b06c3</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_clusterbed/2.22.0</id>
+        <version>2.22.0</version>
+    </tool>
+</section>
+
+<section id="samtools" name="NGS: SAM Tools" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/samtools_rmdup/7e92b2a53aab/samtools_rmdup/samtools_rmdup.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/samtools_rmdup/samtools_rmdup/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>samtools_rmdup</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>7e92b2a53aab</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/samtools_rmdup/samtools_rmdup/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+</section>
+
+<section id="samtools" name="NGS: SAM Tools" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/pileup_interval/a110f9d6ae24/pileup_interval/pileup_interval.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/pileup_interval/pileup_interval/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>pileup_interval</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>a110f9d6ae24</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/pileup_interval/pileup_interval/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+</section>
+
+<section id="samtools" name="NGS: SAM Tools" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/samtools_flagstat/13c4ad597626/samtools_flagstat/samtools_flagstat.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/samtools_flagstat/samtools_flagstat/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>samtools_flagstat</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>13c4ad597626</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/samtools_flagstat/samtools_flagstat/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+</section>
+
+<section id="samtools" name="NGS: SAM Tools" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/samtools_slice_bam/68ba55e96489/samtools_slice_bam/samtools_slice_bam.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/samtools_slice_bam/samtools_slice_bam/0.0.1">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>samtools_slice_bam</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>68ba55e96489</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/samtools_slice_bam/samtools_slice_bam/0.0.1</id>
+        <version>0.0.1</version>
+    </tool>
+</section>
+
+<section id="samtools" name="NGS: SAM Tools" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/sam_to_bam/ab4c4e07eb3c/sam_to_bam/sam_to_bam.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/sam_to_bam/sam_to_bam/1.1.3">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sam_to_bam</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>ab4c4e07eb3c</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/sam_to_bam/sam_to_bam/1.1.3</id>
+        <version>1.1.3</version>
+    </tool>
+</section>
+
+<section id="samtools" name="NGS: SAM Tools" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/bam_to_sam/dc20f447c0e2/bam_to_sam/bam_to_sam.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/bam_to_sam/bam_to_sam/1.0.3">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bam_to_sam</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>dc20f447c0e2</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/bam_to_sam/bam_to_sam/1.0.3</id>
+        <version>1.0.3</version>
+    </tool>
+</section>
+
+<section id="ngs-rna-tools" name="NGS: RNA Analysis" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/rnateam/mirdeep2/d0faf81ccc99/mirdeep2/mirdeep2.xml" guid="toolshed.g2.bx.psu.edu/repos/rnateam/mirdeep2/rbc_mirdeep2/2.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>mirdeep2</repository_name>
+        <repository_owner>rnateam</repository_owner>
+        <installed_changeset_revision>d0faf81ccc99</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/rnateam/mirdeep2/rbc_mirdeep2/2.0.0</id>
+        <version>2.0.0</version>
+    </tool>
+</section>
+
+<section id="ngs-rna-tools" name="NGS: RNA Analysis" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/rnateam/mirdeep2_mapper/12fc62b7dc09/mirdeep2_mapper/mapper.xml" guid="toolshed.g2.bx.psu.edu/repos/rnateam/mirdeep2_mapper/rbc_mirdeep2_mapper/2.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>mirdeep2_mapper</repository_name>
+        <repository_owner>rnateam</repository_owner>
+        <installed_changeset_revision>12fc62b7dc09</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/rnateam/mirdeep2_mapper/rbc_mirdeep2_mapper/2.0.0</id>
+        <version>2.0.0</version>
+    </tool>
+</section>
+
+<section id="ngs-rna-tools" name="NGS: RNA Analysis" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/rnateam/mirdeep2_quantifier/40dc77f3730c/mirdeep2_quantifier/quantifier.xml" guid="toolshed.g2.bx.psu.edu/repos/rnateam/mirdeep2_quantifier/rbc_mirdeep2_quantifier/2.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>mirdeep2_quantifier</repository_name>
+        <repository_owner>rnateam</repository_owner>
+        <installed_changeset_revision>40dc77f3730c</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/rnateam/mirdeep2_quantifier/rbc_mirdeep2_quantifier/2.0.0</id>
+        <version>2.0.0</version>
+    </tool>
+</section>
+
+<section id="stats" name="Statistics" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/guru-ananda/heatmap/dbd447fcd3e4/heatmap/heatmap/heatmap.xml" guid="toolshed.g2.bx.psu.edu/repos/guru-ananda/heatmap/heatmap_1/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>heatmap</repository_name>
+        <repository_owner>guru-ananda</repository_owner>
+        <installed_changeset_revision>dbd447fcd3e4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/guru-ananda/heatmap/heatmap_1/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+</section>
+
+<section id="ngs-rna-tools" name="NGS: RNA Analysis" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/cuffcompare/67695d7ff787/cuffcompare/cuffcompare_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/cuffcompare/cuffcompare/0.0.6">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>cuffcompare</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>67695d7ff787</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/cuffcompare/cuffcompare/0.0.6</id>
+        <version>0.0.6</version>
+    </tool>
+</section>
+
+<section id="ngs-rna-tools" name="NGS: RNA Analysis" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/yhoogstrate/featurecounts/e04fbcc4e91a/featurecounts/featurecounts.xml" guid="toolshed.g2.bx.psu.edu/repos/yhoogstrate/featurecounts/featurecounts/1.4.6.p5">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>featurecounts</repository_name>
+        <repository_owner>yhoogstrate</repository_owner>
+        <installed_changeset_revision>e04fbcc4e91a</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/yhoogstrate/featurecounts/featurecounts/1.4.6.p5</id>
+        <version>1.4.6.p5</version>
+    </tool>
+</section>
+
+<section id="convert" name="Convert Formats" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/bam_to_sam/af7c50162f0b/bam_to_sam/bam_to_sam.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/bam_to_sam/bam_to_sam/2.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bam_to_sam</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>af7c50162f0b</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/bam_to_sam/bam_to_sam/2.0</id>
+        <version>2.0</version>
+    </tool>
+</section>
+
+<section id="bedtools" name="Bedtools" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/genomeCoverageBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_genomecoveragebed/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_genomecoveragebed/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/reldist.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_reldistbed/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_reldistbed/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/maskFastaBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_maskfastabed/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_maskfastabed/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/bedpeToBam.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bedpetobam/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bedpetobam/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/jaccardBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_jaccard/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_jaccard/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/mergeBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_mergebed/2.24.1">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_mergebed/2.24.1</id>
+        <version>2.24.1</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/getfastaBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_getfastabed/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_getfastabed/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/mapBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_map/2.24.1">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_map/2.24.1</id>
+        <version>2.24.1</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/subtractBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_subtractbed/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_subtractbed/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/slopBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_slopbed/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_slopbed/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/groupbyBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_groupbybed/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_groupbybed/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/bamToBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bamtobed/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bamtobed/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/tagBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_tagbed/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_tagbed/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/bamToFastq.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bamtofastq/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bamtofastq/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/clusterBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_clusterbed/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_clusterbed/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/randomBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_randombed/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_randombed/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/flankBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_flankbed/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_flankbed/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/sortBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_sortbed/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_sortbed/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/windowBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_windowbed/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_windowbed/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/multiIntersectBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_multiintersectbed/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_multiintersectbed/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/annotateBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_annotatebed/2.24.1">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_annotatebed/2.24.1</id>
+        <version>2.24.1</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/unionBedGraphs.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_unionbedgraph/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_unionbedgraph/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/spacingBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_spacingbed/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_spacingbed/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/multiCov.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_multicovtbed/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_multicovtbed/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/makeWindowsBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_makewindowsbed/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_makewindowsbed/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/bedToBam.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bedtobam/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bedtobam/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/coverageBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_coveragebed/2.24.1">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_coveragebed/2.24.1</id>
+        <version>2.24.1</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/shuffleBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_shufflebed/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_shufflebed/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/overlapBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_overlapbed/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_overlapbed/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/fisherBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_fisher/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_fisher/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/expandBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_expandbed/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_expandbed/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/bed12ToBed6.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bed12tobed6/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bed12tobed6/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/linksBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_links/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_links/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/complementBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_complementbed/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_complementbed/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/nucBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_nucbed/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_nucbed/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/closestBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_closestbed/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_closestbed/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/f8b7dc21b4ee/bedtools/intersectBed.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.24.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bedtools</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>f8b7dc21b4ee</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed/2.24.0</id>
+        <version>2.24.0</version>
+    </tool>
+</section>
+
+<section id="solexa_tools" name="NGS: Mapping" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/a9d4f71dbfb0/bowtie2/bowtie2_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.2.6.2">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bowtie2</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>a9d4f71dbfb0</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.2.6.2</id>
+        <version>2.2.6.2</version>
+    </tool>
+</section>
+
+<section id="ngs-rna-tools" name="NGS: RNA Analysis" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/cuffdiff/0f32ad418df8/cuffdiff/cuffdiff_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/cuffdiff/cuffdiff/2.2.1.3">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>cuffdiff</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>0f32ad418df8</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/cuffdiff/cuffdiff/2.2.1.3</id>
+        <version>2.2.1.3</version>
+    </tool>
+</section>
+
+<section id="motifs" name="Peak Calling and Motif Tools" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/iuc/macs2/6d4babad010f/macs2/macs2_bdgcmp.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_bdgcmp/2.1.0.20151222.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>macs2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>6d4babad010f</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_bdgcmp/2.1.0.20151222.0</id>
+        <version>2.1.0.20151222.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/macs2/6d4babad010f/macs2/macs2_predictd.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_predictd/2.1.0.20151222.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>macs2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>6d4babad010f</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_predictd/2.1.0.20151222.0</id>
+        <version>2.1.0.20151222.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/macs2/6d4babad010f/macs2/macs2_bdgbroadcall.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_bdgbroadcall/2.1.0.20151222.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>macs2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>6d4babad010f</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_bdgbroadcall/2.1.0.20151222.0</id>
+        <version>2.1.0.20151222.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/macs2/6d4babad010f/macs2/macs2_bdgdiff.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_bdgdiff/2.1.0.20151222.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>macs2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>6d4babad010f</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_bdgdiff/2.1.0.20151222.0</id>
+        <version>2.1.0.20151222.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/macs2/6d4babad010f/macs2/macs2_filterdup.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_filterdup/2.1.0.20151222.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>macs2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>6d4babad010f</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_filterdup/2.1.0.20151222.0</id>
+        <version>2.1.0.20151222.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/macs2/6d4babad010f/macs2/macs2_callpeak.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.1.0.20151222.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>macs2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>6d4babad010f</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.1.0.20151222.0</id>
+        <version>2.1.0.20151222.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/macs2/6d4babad010f/macs2/macs2_refinepeak.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_refinepeak/2.1.0.20151222.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>macs2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>6d4babad010f</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_refinepeak/2.1.0.20151222.0</id>
+        <version>2.1.0.20151222.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/macs2/6d4babad010f/macs2/macs2_randsample.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_randsample/2.1.0.20151222.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>macs2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>6d4babad010f</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_randsample/2.1.0.20151222.0</id>
+        <version>2.1.0.20151222.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/macs2/6d4babad010f/macs2/macs2_bdgpeakcall.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_bdgpeakcall/2.1.0.20151222.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>macs2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>6d4babad010f</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_bdgpeakcall/2.1.0.20151222.0</id>
+        <version>2.1.0.20151222.0</version>
+    </tool>
+</section>
+
+<section id="samtools" name="NGS: SAM Tools" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/samtools_flagstat/0072bf593791/samtools_flagstat/samtools_flagstat.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/samtools_flagstat/samtools_flagstat/2.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>samtools_flagstat</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>0072bf593791</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/samtools_flagstat/samtools_flagstat/2.0</id>
+        <version>2.0</version>
+    </tool>
+</section>
+
+<section id="picard_tools" name="Picard tools" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_ValidateSamFile.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_ValidateSamFile/1.136.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_ValidateSamFile/1.136.0</id>
+        <version>1.136.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_MergeSamFiles.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MergeSamFiles/1.136.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MergeSamFiles/1.136.0</id>
+        <version>1.136.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_FixMateInformation.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_FixMateInformation/1.136.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_FixMateInformation/1.136.0</id>
+        <version>1.136.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_RevertOriginalBaseQualitiesAndAddMateCigar.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_RevertOriginalBaseQualitiesAndAddMateCigar/1.136.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_RevertOriginalBaseQualitiesAndAddMateCigar/1.136.0</id>
+        <version>1.136.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_MeanQualityByCycle.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MeanQualityByCycle/1.136.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MeanQualityByCycle/1.136.0</id>
+        <version>1.136.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_FilterSamReads.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_FilterSamReads/1.136.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_FilterSamReads/1.136.0</id>
+        <version>1.136.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_CollectGcBiasMetrics.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectGcBiasMetrics/1.136.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectGcBiasMetrics/1.136.0</id>
+        <version>1.136.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_CollectAlignmentSummaryMetrics.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CASM/1.136.1">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CASM/1.136.1</id>
+        <version>1.136.1</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_AddCommentsToBam.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_AddCommentsToBam/1.136.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_AddCommentsToBam/1.136.0</id>
+        <version>1.136.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_MarkDuplicates.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/1.136.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/1.136.0</id>
+        <version>1.136.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_EstimateLibraryComplexity.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_EstimateLibraryComplexity/1.136.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_EstimateLibraryComplexity/1.136.0</id>
+        <version>1.136.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_MergeBamAlignment.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MergeBamAlignment/1.136.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MergeBamAlignment/1.136.0</id>
+        <version>1.136.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_BedToIntervalList.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_BedToIntervalList/1.136.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_BedToIntervalList/1.136.0</id>
+        <version>1.136.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_FastqToSam.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_FastqToSam/1.136.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_FastqToSam/1.136.0</id>
+        <version>1.136.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_ReorderSam.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_ReorderSam/1.136.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_ReorderSam/1.136.0</id>
+        <version>1.136.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_CollectBaseDistributionByCycle.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectBaseDistributionByCycle/1.136.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectBaseDistributionByCycle/1.136.0</id>
+        <version>1.136.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_DownsampleSam.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_DownsampleSam/1.136.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_DownsampleSam/1.136.0</id>
+        <version>1.136.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_MarkDuplicatesWithMateCigar.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicatesWithMateCigar/1.136.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicatesWithMateCigar/1.136.0</id>
+        <version>1.136.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_CleanSam.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CleanSam/1.136.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CleanSam/1.136.0</id>
+        <version>1.136.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_NormalizeFasta.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/1.136.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_NormalizeFasta/1.136.0</id>
+        <version>1.136.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_CollectRnaSeqMetrics.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectRnaSeqMetrics/1.136.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectRnaSeqMetrics/1.136.0</id>
+        <version>1.136.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_QualityScoreDistribution.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_QualityScoreDistribution/1.136.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_QualityScoreDistribution/1.136.0</id>
+        <version>1.136.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_RevertSam.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_RevertSam/1.136.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_RevertSam/1.136.0</id>
+        <version>1.136.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_SamToFastq.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_SamToFastq/1.136.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_SamToFastq/1.136.0</id>
+        <version>1.136.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_CollectInsertSizeMetrics.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectInsertSizeMetrics/1.136.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectInsertSizeMetrics/1.136.0</id>
+        <version>1.136.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_AddOrReplaceReadGroups.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_AddOrReplaceReadGroups/1.136.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_AddOrReplaceReadGroups/1.136.0</id>
+        <version>1.136.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_CollectWgsMetrics.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectWgsMetrics/1.136.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_CollectWgsMetrics/1.136.0</id>
+        <version>1.136.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_SortSam.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_SortSam/1.136.1">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_SortSam/1.136.1</id>
+        <version>1.136.1</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/picard/efc56ee1ade4/picard/picard_ReplaceSamHeader.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_ReplaceSamHeader/1.136.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>picard</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>efc56ee1ade4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_ReplaceSamHeader/1.136.0</id>
+        <version>1.136.0</version>
+    </tool>
+</section>
+
+<section id="samtools" name="NGS: SAM Tools" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/samtools_rmdup/bb40e4252392/samtools_rmdup/samtools_rmdup.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/samtools_rmdup/samtools_rmdup/2.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>samtools_rmdup</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>bb40e4252392</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/samtools_rmdup/samtools_rmdup/2.0</id>
+        <version>2.0</version>
+    </tool>
+</section>
+
+<section id="solexa_tools" name="NGS: Mapping" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/iuc/hisat2/2d449a1bb5ab/hisat2/hisat2.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.0.3">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>hisat2</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>2d449a1bb5ab</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.0.3</id>
+        <version>2.0.3</version>
+    </tool>
+</section>
+
+</toolbox>

@@ -1,0 +1,11 @@
+data/test-data/sam_to_bam_in1.sam.i
+data/sam_to_bam.xml.i
+data/sam_to_bam.py.i
+data/test-data/sam_to_bam_out1.bam.i
+data/test-data/chr_m.fasta.i
+data/tool_data_table_conf.xml.sample.i
+data/tool-data/fasta_indexes.loc.sample.i
+data/test-data/sam_to_bam_out2.bam.i
+data/tool-data/tool_data_table_conf.xml.sample.i
+data/tool_dependencies.xml.i
+data/tool-data/sam_fa_indices.loc.sample.i

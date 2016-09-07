@@ -1,0 +1,6 @@
+data/test-data/samtools-rmdup-test1.bam.i
+data/macros.xml.i
+data/test-data/1.bam.i
+data/samtools_rmdup.xml.i
+data/tool_dependencies.xml.i
+data/test-data/samtools-rmdup-input1.bam.i

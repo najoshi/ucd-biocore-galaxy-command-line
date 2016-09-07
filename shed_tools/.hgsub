@@ -1,0 +1,3 @@
+toolshed.g2.bx.psu.edu/repos/iuc/gatk2/84584664264c/gatk2 = https://toolshed.g2.bx.psu.edu/repos/iuc/gatk2 
+toolshed.g2.bx.psu.edu/repos/crs4/bwa_mem/ebb02ba5987c/bwa_mem = https://toolshed.g2.bx.psu.edu/repos/crs4/bwa_mem
+toolshed.g2.bx.psu.edu/repos/devteam/fastqc/0b201de108b9/fastqc = https://toolshed.g2.bx.psu.edu/repos/devteam/fastqc

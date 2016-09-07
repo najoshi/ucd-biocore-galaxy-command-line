@@ -1,0 +1,11 @@
+data/bowtie2_wrapper.xml.i
+data/test-data/bowtie2-fq2.fq.i
+data/tool-data/bowtie2_indices.loc.sample.i
+data/test-data/bowtie2/phix_mapped.bam.i
+data/test-data/bowtie2-ref.fasta.i
+data/test-data/bowtie2/phix_reads.fastq.i
+data/test-data/bowtie2/phix_genome.fasta.i
+data/test-data/bowtie2-test1.bam.i
+data/tool_dependencies.xml.i
+data/tool_data_table_conf.xml.sample.i
+data/test-data/bowtie2-fq1.fq.i

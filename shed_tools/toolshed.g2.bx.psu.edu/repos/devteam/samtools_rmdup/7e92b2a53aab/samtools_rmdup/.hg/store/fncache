@@ -1,0 +1,3 @@
+data/tool_dependencies.xml.i
+data/samtools_rmdup.xml.i
+data/test-data/1.bam.i

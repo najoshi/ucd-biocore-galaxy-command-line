@@ -1,0 +1,36 @@
+<tool id="cuffdata_cummerbund" name="Cuffdata cummeRbund DB" version="0.0.5">
+    <!-- Wrapper supports Cuffdiff versions v1.3.0-v2.0 -->
+    <description>Create CummeRbund database</description>
+    <command>
+      ## symlink all files to job working dir
+      for i in ${cuffdata.extra_files_path}/*; #raw do ln -s $i  ${i##*/}; done; #end raw
+      ## run rscript
+      Rscript --vanilla --quiet -e 'library(cummeRbund); cuff&lt;-readCufflinks(dbFile="cuffData.db"); samples(cuff@genes); cuff' 2> r.stderr | sed 's/\[1\]/samples:/'
+    </command>
+    <inputs>
+        <param name="cuffdata" type="data" format="cuffdata" label="Cuffidif cuffdata" help=""/>
+    </inputs>
+
+    <outputs>
+        <data format="cuffdatadb" name="cummeRbund_db" label="${tool.name} on ${on_string}: cummeRbund sqlite Database" from_work_dir="cuffData.db"/>
+    </outputs>
+    <stdio>
+        <exit_code range="1:"  level="fatal"   description="Cufflinks Err" />
+    </stdio>
+    <tests>
+    </tests>
+    <help>
+**Cuffdiff cuffdata to CummeRBund database**
+
+Create a CummeRBund_ SQLite database from the cuffdata output from Cuffdiff_.
+
+Cuffdiff_ is part of Cufflinks_. Cuffdiff find significant changes in transcript expression, splicing, and promoter use. Please cite: Trapnell C, Williams BA, Pertea G, Mortazavi AM, Kwan G, van Baren MJ, Salzberg SL, Wold B, Pachter L. Transcript assembly and abundance estimation from RNA-Seq reveals thousands of new transcripts and switching among isoforms. Nature Biotechnology doi:10.1038/nbt.1621
+
+CummeRbund_ is a collaborative effort between the Computational Biology group led by Manolis Kellis at MIT's Computer Science and Artificial Intelligence Laboratory, and the Rinn Lab at the Harvard University department of Stem Cells and Regenerative Medicine
+
+.. _CummeRBund: http://compbio.mit.edu/cummeRbund/
+.. _Cufflinks: http://cufflinks.cbcb.umd.edu/
+.. _Cuffdiff: http://cufflinks.cbcb.umd.edu/manual.html#cuffdiff
+  
+    </help>
+</tool>

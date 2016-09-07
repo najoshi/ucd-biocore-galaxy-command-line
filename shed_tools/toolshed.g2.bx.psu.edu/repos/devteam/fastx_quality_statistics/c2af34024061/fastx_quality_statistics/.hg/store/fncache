@@ -1,0 +1,4 @@
+data/fastx_quality_statistics.xml.i
+data/tool_dependencies.xml.i
+data/test-data/fastq_stats1.out.i
+data/test-data/fastq_stats1.fastq.i

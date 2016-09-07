@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<tool_dependency>
+    <package name="bedtools" version="2.24">
+        <repository changeset_revision="39b86c1e267d" name="package_bedtools_2_24" owner="iuc" toolshed="https://toolshed.g2.bx.psu.edu" />
+    </package>
+    <package name="samtools" version="1.2">
+        <repository changeset_revision="f6ae3ba3f3c1" name="package_samtools_1_2" owner="iuc" toolshed="https://toolshed.g2.bx.psu.edu" />
+    </package>
+</tool_dependency>

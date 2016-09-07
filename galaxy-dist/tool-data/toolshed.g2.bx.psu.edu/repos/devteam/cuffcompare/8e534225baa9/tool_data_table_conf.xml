@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<tables>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/home/galaxy/galaxy-dist/tool-data/toolshed.g2.bx.psu.edu/repos/devteam/cuffcompare/8e534225baa9/fasta_indexes.loc" />
+    <tool_shed_repository><tool_shed>toolshed.g2.bx.psu.edu</tool_shed><repository_name>cuffcompare</repository_name><repository_owner>devteam</repository_owner><installed_changeset_revision>8e534225baa9</installed_changeset_revision></tool_shed_repository></table>
+</tables>

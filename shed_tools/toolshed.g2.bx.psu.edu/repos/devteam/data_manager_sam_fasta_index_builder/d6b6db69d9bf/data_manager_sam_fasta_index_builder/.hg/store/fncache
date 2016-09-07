@@ -1,0 +1,8 @@
+data/data_manager/data_manager_sam_fasta_index_builder.py.i
+data/README.i
+data/data_manager_conf.xml.i
+data/tool_data_table_conf.xml.sample.i
+data/tool-data/fasta_indexes.loc.sample.i
+data/tool-data/all_fasta.loc.sample.i
+data/tool_dependencies.xml.i
+data/data_manager/data_manager_sam_fasta_index_builder.xml.i
